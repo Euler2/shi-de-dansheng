@@ -1,0 +1,328 @@
+[
+  {
+    "no": 1,
+    "title": "《论语》十二章",
+    "author": "孔子及弟子",
+    "era": "春秋",
+    "tier": "必修",
+    "summary": "修身、为学、仁与礼的语录选段，高考默写高频。",
+    "gaokaoOften": true,
+    "levelId": "lunyu-shier"
+  },
+  {
+    "no": 2,
+    "title": "劝学",
+    "author": "荀子",
+    "era": "战国",
+    "tier": "必修",
+    "summary": "「学不可以已」——论积累、积累与假舆马而致千里。",
+    "gaokaoOften": true,
+    "levelId": "quanxue"
+  },
+  {
+    "no": 3,
+    "title": "屈原列传",
+    "author": "司马迁",
+    "era": "汉",
+    "tier": "必修",
+    "summary": "史传写屈原忠而被谤、投江明志，兼论《离骚》之旨。",
+    "gaokaoOften": true,
+    "relatedLevelId": "quyuan-toujiang",
+    "levelId": "quyuan-toujiang"
+  },
+  {
+    "no": 4,
+    "title": "谏太宗十思疏",
+    "author": "魏徵",
+    "era": "唐",
+    "tier": "必修",
+    "summary": "贞观名疏，以「十思」劝太宗居安思危、戒奢从简。",
+    "gaokaoOften": true,
+    "levelId": "jian-taizong"
+  },
+  {
+    "no": 5,
+    "title": "师说",
+    "author": "韩愈",
+    "era": "唐",
+    "tier": "必修",
+    "summary": "「师者，传道受业解惑也」——论从师之道，反时弊。",
+    "gaokaoOften": true,
+    "relatedLevelId": "mashuo-bole",
+    "levelId": "shishuo"
+  },
+  {
+    "no": 6,
+    "title": "阿房宫赋",
+    "author": "杜牧",
+    "era": "唐",
+    "tier": "必修",
+    "summary": "借秦宫之奢写兴亡之鉴，骈散相间，感慨深长。",
+    "gaokaoOften": true,
+    "relatedLevelId": "guoqin-lun",
+    "levelId": "epang-gong-fu"
+  },
+  {
+    "no": 7,
+    "title": "六国论",
+    "author": "苏洵",
+    "era": "宋",
+    "tier": "必修",
+    "summary": "论六国赂秦之弊，借古讽今，逻辑严密。",
+    "gaokaoOften": true,
+    "levelId": "liuguo-lun"
+  },
+  {
+    "no": 8,
+    "title": "答司马谏议书",
+    "author": "王安石",
+    "era": "宋",
+    "tier": "必修",
+    "summary": "新法之争中回信司马光，理直气和，辩驳有力。",
+    "gaokaoOften": true,
+    "levelId": "da-sima"
+  },
+  {
+    "no": 9,
+    "title": "赤壁赋",
+    "author": "苏轼",
+    "era": "宋",
+    "tier": "必修",
+    "summary": "赤壁夜游，主客对答，阐发变与不变、物我无尽。",
+    "gaokaoOften": true,
+    "relatedLevelId": "chibi",
+    "levelId": "chibi-fu"
+  },
+  {
+    "no": 10,
+    "title": "项脊轩志",
+    "author": "归有光",
+    "era": "明",
+    "tier": "必修",
+    "summary": "以小轩为线索，写家庭琐事与悼亡之思，平淡见深情。",
+    "gaokaoOften": true,
+    "levelId": "xiangjixuan-zhi"
+  },
+  {
+    "no": 11,
+    "title": "子路、曾晳、冉有、公西华侍坐",
+    "author": "《论语》",
+    "era": "春秋",
+    "tier": "选择性必修",
+    "summary": "孔子与弟子论志，曾晳言「浴乎沂」一段最著名。",
+    "gaokaoOften": true,
+    "levelId": "zilu-shizuo"
+  },
+  {
+    "no": 12,
+    "title": "报任安书",
+    "author": "司马迁",
+    "era": "汉",
+    "tier": "选择性必修",
+    "summary": "「人固有一死，或重于泰山」——述说著史之志与忍辱负重。",
+    "gaokaoOften": true,
+    "levelId": "bao-renan"
+  },
+  {
+    "no": 13,
+    "title": "过秦论",
+    "author": "贾谊",
+    "era": "汉",
+    "tier": "选择性必修",
+    "summary": "以秦之速亡论弊政，气势磅礴，铺陈与议论结合。",
+    "gaokaoOften": true,
+    "levelId": "guoqin-lun"
+  },
+  {
+    "no": 14,
+    "title": "礼运",
+    "author": "《礼记》",
+    "era": "先秦",
+    "tier": "选择性必修",
+    "summary": "「大道之行也，天下为公」——述大同理想社会。",
+    "gaokaoOften": true,
+    "levelId": "liyun"
+  },
+  {
+    "no": 15,
+    "title": "陈情表",
+    "author": "李密",
+    "era": "西晋",
+    "tier": "选择性必修",
+    "summary": "「臣无祖母，无以至今日」——乞养祖母，情理并茂。",
+    "gaokaoOften": true,
+    "levelId": "chenqing-biao"
+  },
+  {
+    "no": 16,
+    "title": "归去来兮辞",
+    "author": "陶渊明",
+    "era": "东晋",
+    "tier": "选择性必修",
+    "summary": "辞官归隐宣言，「田园将芜胡不归」开东晋田园风。",
+    "gaokaoOften": true,
+    "relatedLevelId": "taohuayuan-ji",
+    "levelId": "guitian-ci"
+  },
+  {
+    "no": 17,
+    "title": "种树郭橐驼传",
+    "author": "柳宗元",
+    "era": "唐",
+    "tier": "选择性必修",
+    "summary": "借种树喻为政，「顺木之天以致其性」讽庸吏。",
+    "gaokaoOften": true,
+    "levelId": "zhongshu-guotuo"
+  },
+  {
+    "no": 18,
+    "title": "五代史伶官传序",
+    "author": "欧阳修",
+    "era": "宋",
+    "tier": "选择性必修",
+    "summary": "「忧劳可以兴国，逸豫可以亡身」——庄宗成败之鉴。",
+    "gaokaoOften": true,
+    "relatedLevelId": "zuiweng-tingji",
+    "levelId": "lingguan-xu"
+  },
+  {
+    "no": 19,
+    "title": "石钟山记",
+    "author": "苏轼",
+    "era": "宋",
+    "tier": "选择性必修",
+    "summary": "由郦道元、李渤之说疑起，亲历考察，论「事不目见耳闻而臆断其有无」可乎。",
+    "gaokaoOften": true,
+    "levelId": "shizhongshan-ji"
+  },
+  {
+    "no": 20,
+    "title": "登泰山记",
+    "author": "姚鼐",
+    "era": "清",
+    "tier": "选择性必修",
+    "summary": "桐城笔法记泰山日出，简淡而有神韵。",
+    "gaokaoOften": true,
+    "levelId": "deng-taishan"
+  },
+  {
+    "no": 21,
+    "title": "《老子》八章",
+    "author": "老子",
+    "era": "先秦",
+    "tier": "选修",
+    "summary": "选章含「上善若水」等名句，论柔弱、无为。",
+    "gaokaoOften": false,
+    "levelId": "laozi-bazhang"
+  },
+  {
+    "no": 22,
+    "title": "季氏将伐颛臾",
+    "author": "《论语》",
+    "era": "春秋",
+    "tier": "选修",
+    "summary": "孔子责冉有、季路，论政在德不在力。",
+    "gaokaoOften": false,
+    "levelId": "jishi-zhuanyu"
+  },
+  {
+    "no": 23,
+    "title": "大学",
+    "author": "《礼记》",
+    "era": "先秦",
+    "tier": "选修",
+    "summary": "「修身齐家治国平天下」之纲领选段。",
+    "gaokaoOften": false,
+    "levelId": "daxue-liji"
+  },
+  {
+    "no": 24,
+    "title": "中庸",
+    "author": "《礼记》",
+    "era": "先秦",
+    "tier": "选修",
+    "summary": "「喜怒哀乐之未发谓之中」——论诚与中和。",
+    "gaokaoOften": false,
+    "levelId": "zhongyong"
+  },
+  {
+    "no": 25,
+    "title": "《孟子》一则",
+    "author": "孟子",
+    "era": "战国",
+    "tier": "选修",
+    "summary": "「敢问夫子恶乎长」等选段，论浩然之气与大丈夫。",
+    "gaokaoOften": false,
+    "levelId": "mengzi-yize"
+  },
+  {
+    "no": 26,
+    "title": "逍遥游",
+    "author": "庄子",
+    "era": "战国",
+    "tier": "选修",
+    "summary": "大鹏展翅、小大之辩，开庄子逍遥哲学。",
+    "gaokaoOften": false,
+    "levelId": "zhuangzi-xiaoyao"
+  },
+  {
+    "no": 27,
+    "title": "谏逐客书",
+    "author": "李斯",
+    "era": "秦",
+    "tier": "选修",
+    "summary": "谏秦王勿逐客，「泰山不让土壤」说服力强。",
+    "gaokaoOften": false,
+    "levelId": "jianzhu-ke-shu"
+  },
+  {
+    "no": 28,
+    "title": "兰亭集序",
+    "author": "王羲之",
+    "era": "东晋",
+    "tier": "选修",
+    "summary": "修禊宴集之序，「后之视今，亦犹今之视昔」千古同悲。",
+    "gaokaoOften": false,
+    "levelId": "lanting-xu"
+  },
+  {
+    "no": 29,
+    "title": "滕王阁序",
+    "author": "王勃",
+    "era": "唐",
+    "tier": "选修",
+    "summary": "骈文名篇，「落霞与孤鹜齐飞，秋水共长天一色」。",
+    "gaokaoOften": false,
+    "levelId": "tengwang-ge-xu"
+  },
+  {
+    "no": 30,
+    "title": "黄冈竹楼记",
+    "author": "王禹偁",
+    "era": "宋",
+    "tier": "选修",
+    "summary": "谪居黄州建竹楼，以小景写旷达。",
+    "gaokaoOften": false,
+    "levelId": "huanggang-zhulou"
+  },
+  {
+    "no": 31,
+    "title": "上枢密韩太尉书",
+    "author": "苏辙",
+    "era": "宋",
+    "tier": "选修",
+    "summary": "以养气论文，求见韩琦，议论纵横。",
+    "gaokaoOften": false,
+    "levelId": "shang-shumi"
+  },
+  {
+    "no": 32,
+    "title": "古代文论选段",
+    "author": "各家",
+    "era": "历代",
+    "tier": "选修",
+    "summary": "含《文心雕龙》《诗品序》《人间词话》等文论名段选。",
+    "gaokaoOften": false,
+    "levelId": "gudai-wenlun"
+  }
+]

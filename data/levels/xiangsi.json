@@ -1,0 +1,110 @@
+{
+  "id": "xiangsi",
+  "type": "poem",
+  "title": "相思",
+  "subtitle": "五言绝句 · 课标背诵",
+  "era": "唐",
+  "author": "王维",
+  "protagonist": "拟写《相思》的诗人",
+  "difficulty": 1,
+  "intro": "以红豆寄相思，你要先定下起句——",
+  "guide": "你将一步步写下这一篇。选对更接近流传名篇。",
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "compose",
+      "narration": "你先定下起句——",
+      "prompt": "选起句方向",
+      "options": [
+        {
+          "id": "a",
+          "label": "红豆生南国，春来",
+          "fragment": "红豆生南国，春来发几枝。",
+          "isTarget": true,
+          "whyHere": "与课标通行本、声情相合。"
+        },
+        {
+          "id": "b",
+          "label": "另起意境",
+          "fragment": "红豆……枝。",
+          "altNote": "意境可通，但与通行本不同。"
+        }
+      ],
+      "lineCompare": {
+        "realLine": "红豆生南国，春来发几枝。",
+        "whyOriginal": "起句定调，名篇多由此出。"
+      }
+    },
+    {
+      "id": "s2",
+      "kind": "compose",
+      "narration": "再写下一句——",
+      "prompt": "接下一句",
+      "options": [
+        {
+          "id": "a",
+          "label": "愿君多采撷，此物",
+          "fragment": "愿君多采撷，此物最相思。",
+          "isTarget": true,
+          "whyHere": "与上句相承，合于名篇。"
+        },
+        {
+          "id": "b",
+          "label": "换另一种收束",
+          "fragment": "愿君……",
+          "altNote": "可成句，但与名篇不同。"
+        }
+      ],
+      "lineCompare": {
+        "realLine": "愿君多采撷，此物最相思。",
+        "whyOriginal": "承转之间，见作者匠心。"
+      }
+    }
+  ],
+  "scoring": {
+    "mode": "resonance",
+    "bands": [
+      {
+        "min": 0,
+        "max": 1,
+        "text": "你的版本有情致，与名篇略异。"
+      },
+      {
+        "min": 2,
+        "max": 2,
+        "text": "你写成了通行名篇的关键句。"
+      }
+    ]
+  },
+  "reveal": {
+    "realText": "红豆生南国，春来发几枝。，愿君多采撷，此物最相思。。",
+    "source": "王维《相思》",
+    "analysis": "《相思》为课标篇目，五言绝句，主题：思念、红豆。",
+    "takeaway": "物可寄情；相思不在多语，在一物之喻。"
+  },
+  "shareCard": {
+    "headline": "相思 · 你拼出的版本",
+    "footer": "物可寄情；相思不在多语，在一物之喻。"
+  },
+  "tags": [
+    "唐",
+    "五言绝句",
+    "思念",
+    "红豆"
+  ],
+  "facets": {
+    "dynasty": [
+      "唐"
+    ],
+    "author": [
+      "王维"
+    ],
+    "form": [
+      "五言绝句"
+    ],
+    "theme": [
+      "思念",
+      "红豆"
+    ]
+  }
+}

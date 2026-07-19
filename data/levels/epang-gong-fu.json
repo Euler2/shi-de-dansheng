@@ -1,0 +1,94 @@
+{
+  "id": "epang-gong-fu",
+  "type": "history",
+  "title": "阿房宫赋 · 秦鉴",
+  "subtitle": "秦人不暇自哀，而后人哀之",
+  "era": "唐",
+  "author": "杜牧",
+  "protagonist": "作赋讽秦的你",
+  "difficulty": 1,
+  "intro": "你要写阿房之盛，以鉴当世。",
+  "guide": "你将替文中人物做几个选择。选对更接近课文与史实。",
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "branch",
+      "narration": "「六王毕，四海一，蜀山兀，阿房出。」",
+      "prompt": "你——",
+      "options": [
+        {
+          "id": "a",
+          "label": "先极写宫之盛，再转其亡",
+          "isTarget": true,
+          "outcome": "你以盛极转衰——赋体正格。"
+        },
+        {
+          "id": "b",
+          "label": "开篇即骂秦，不写景",
+          "outcome": "你直骂——少了「赋」之铺陈力。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "kind": "branch",
+      "narration": "「秦人不暇自哀，而后人哀之；后人哀之而不鉴之，亦使后人而复哀后人也。」",
+      "prompt": "结句你——",
+      "options": [
+        {
+          "id": "a",
+          "label": "以「鉴」收束，警当世",
+          "isTarget": true,
+          "outcome": "你以鉴为旨——「亦使后人而复哀后人」。"
+        },
+        {
+          "id": "b",
+          "label": "只叹秦亡，不警今人",
+          "outcome": "你止于叹秦——借古讽今之力弱了。"
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "mode": "fidelity",
+    "bands": [
+      {
+        "min": 0,
+        "max": 1,
+        "text": "你的选择与课文略有出入，但故事仍说得通。"
+      },
+      {
+        "min": 2,
+        "max": 2,
+        "text": "你与课文、史意相合。"
+      }
+    ]
+  },
+  "reveal": {
+    "realText": "秦人不暇自哀，而后人哀之……亦使后人而复哀后人也。",
+    "source": "杜牧《阿房宫赋》",
+    "analysis": "铺陈阿房之奢，转秦之速亡，以「鉴」警后世。",
+    "takeaway": "奢极必亡；哀而不鉴，复哀复亡。"
+  },
+  "shareCard": {
+    "headline": "阿房宫赋 · 秦鉴 · 你走过了这一程",
+    "footer": "奢极必亡；哀而不鉴，复哀复亡。"
+  },
+  "tags": [
+    "课标",
+    "唐"
+  ],
+  "facets": {
+    "dynasty": [
+      "唐"
+    ],
+    "storyKind": [
+      "赋",
+      "讽喻"
+    ],
+    "theme": [
+      "借古",
+      "戒奢"
+    ]
+  }
+}

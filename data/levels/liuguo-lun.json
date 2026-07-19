@@ -1,0 +1,94 @@
+{
+  "id": "liuguo-lun",
+  "type": "history",
+  "title": "赂秦之弊 · 六国论",
+  "subtitle": "六国破灭，弊在赂秦",
+  "era": "宋",
+  "author": "苏洵",
+  "protagonist": "论六国的苏洵（你）",
+  "difficulty": 1,
+  "intro": "你要论六国破灭之因。",
+  "guide": "你将替文中人物做几个选择。选对更接近课文与史实。",
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "branch",
+      "narration": "「六国破灭，非兵不利，战不善，弊在赂秦。」",
+      "prompt": "你立论——",
+      "options": [
+        {
+          "id": "a",
+          "label": "直指赂秦，不怨兵战",
+          "isTarget": true,
+          "outcome": "你立论在赂——全文由此展开。"
+        },
+        {
+          "id": "b",
+          "label": "归罪将帅无能",
+          "outcome": "你怨将——苏洵先破「兵利战善」。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "kind": "branch",
+      "narration": "「以地事秦，犹抱薪救火，薪不尽，火不灭。」",
+      "prompt": "你谏诸侯——",
+      "options": [
+        {
+          "id": "a",
+          "label": "止赂合从，共抗强秦",
+          "isTarget": true,
+          "outcome": "你喻抱薪救火——赂愈多，亡愈速。"
+        },
+        {
+          "id": "b",
+          "label": "继续割地求和",
+          "outcome": "你主赂——「薪不尽，火不灭」。"
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "mode": "fidelity",
+    "bands": [
+      {
+        "min": 0,
+        "max": 1,
+        "text": "你的选择与课文略有出入，但故事仍说得通。"
+      },
+      {
+        "min": 2,
+        "max": 2,
+        "text": "你与课文、史意相合。"
+      }
+    ]
+  },
+  "reveal": {
+    "realText": "六国破灭，非兵不利，战不善，弊在赂秦……为国者无使为积威之所劫哉！",
+    "source": "苏洵《六国论》",
+    "analysis": "借古讽今，中心论点鲜明，论证层层递进。",
+    "takeaway": "赂强者，损己速亡；借古之鉴，在止赂保国。"
+  },
+  "shareCard": {
+    "headline": "赂秦之弊 · 六国论 · 你走过了这一程",
+    "footer": "赂强者，损己速亡；借古之鉴，在止赂保国。"
+  },
+  "tags": [
+    "课标",
+    "宋"
+  ],
+  "facets": {
+    "dynasty": [
+      "宋"
+    ],
+    "storyKind": [
+      "论说",
+      "史论"
+    ],
+    "theme": [
+      "治国",
+      "借古"
+    ]
+  }
+}

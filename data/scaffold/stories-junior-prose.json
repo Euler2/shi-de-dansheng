@@ -1,0 +1,163 @@
+[
+  {
+    "no": 41,
+    "title": "《论语》十二章",
+    "author": "孔子及弟子",
+    "era": "春秋",
+    "summary": "修身、为学、仁与礼的语录，中考常考名句默写。",
+    "levelId": "lunyu-shier"
+  },
+  {
+    "no": 42,
+    "title": "曹刿论战",
+    "author": "《左传》",
+    "era": "春秋",
+    "summary": "长勺之战前曹刿论「肉食者鄙」与「一鼓作气」，以民为本的军事智慧。",
+    "levelId": "caogui-lunzhan"
+  },
+  {
+    "no": 43,
+    "title": "《孟子》三则",
+    "author": "孟子",
+    "era": "战国",
+    "summary": "舍生取义、生于忧患等名篇选段，论修养与治国。",
+    "levelId": "mengzi-sanze"
+  },
+  {
+    "no": 44,
+    "title": "《庄子》一则",
+    "author": "庄子",
+    "era": "战国",
+    "summary": "北冥有鱼化为鹏，以寓言阐发逍遥与眼界。",
+    "levelId": "zhuangzi-yize"
+  },
+  {
+    "no": 45,
+    "title": "《礼记》一则",
+    "author": "《礼记》",
+    "era": "先秦",
+    "summary": "虽有嘉肴、大道之行等选段，论学与不思则罔。",
+    "levelId": "liji-yize"
+  },
+  {
+    "no": 46,
+    "title": "《列子》一则",
+    "author": "列子",
+    "era": "战国",
+    "summary": "伯牙鼓琴、子期知音，知音难觅的典故。",
+    "levelId": "liezi-yize"
+  },
+  {
+    "no": 47,
+    "title": "邹忌讽齐王纳谏",
+    "author": "《战国策》",
+    "era": "战国",
+    "summary": "邹忌比美悟「王之蔽甚矣」，讽齐王广开言路。",
+    "levelId": "zouji-fengjian"
+  },
+  {
+    "no": 48,
+    "title": "出师表",
+    "author": "诸葛亮",
+    "era": "三国",
+    "summary": "「鞠躬尽瘁，死而后已」——北伐前上疏后主，陈情与谏言。",
+    "levelId": "chushi-biao"
+  },
+  {
+    "no": 49,
+    "title": "桃花源记",
+    "author": "陶渊明",
+    "era": "东晋",
+    "summary": "渔人误入世外桃源，写理想社会与避世之思。",
+    "levelId": "taohuayuan-ji"
+  },
+  {
+    "no": 50,
+    "title": "答谢中书书",
+    "author": "陶弘景",
+    "era": "南朝",
+    "summary": "山川之美，古来共谈——书信用骈句写江南秋景。",
+    "levelId": "daxie-zhongshu"
+  },
+  {
+    "no": 51,
+    "title": "三峡",
+    "author": "郦道元",
+    "era": "北魏",
+    "summary": "自三峡七百里中，两岸连山，略无阙处——写景雄奇。",
+    "levelId": "sanxia-xuanqi"
+  },
+  {
+    "no": 52,
+    "title": "马说",
+    "author": "韩愈",
+    "era": "唐",
+    "summary": "世有伯乐，然后有千里马——论人才与知遇。",
+    "levelId": "mashuo-bole"
+  },
+  {
+    "no": 53,
+    "title": "陋室铭",
+    "author": "刘禹锡",
+    "era": "唐",
+    "summary": "斯是陋室，惟吾德馨——托物言志，安贫乐道。",
+    "levelId": "loushi-ming"
+  },
+  {
+    "no": 54,
+    "title": "小石潭记",
+    "author": "柳宗元",
+    "era": "唐",
+    "summary": "永州之野产异蛇——山水游记，凄神寒骨，悄怆幽邃。",
+    "levelId": "xiaoshitan-ji",
+    "relatedLevelId": "zhongshu-guotuo"
+  },
+  {
+    "no": 55,
+    "title": "岳阳楼记",
+    "author": "范仲淹",
+    "era": "宋",
+    "summary": "先天下之忧而忧，后天下之乐而乐——登楼抒怀与士大夫担当。",
+    "levelId": "yueyang-louji"
+  },
+  {
+    "no": 56,
+    "title": "醉翁亭记",
+    "author": "欧阳修",
+    "era": "宋",
+    "summary": "醉翁之意不在酒，在乎山水之间也——滁州山水与与民同乐。",
+    "levelId": "zuiweng-tingji"
+  },
+  {
+    "no": 57,
+    "title": "爱莲说",
+    "author": "周敦颐",
+    "era": "宋",
+    "summary": "出淤泥而不染——以莲喻君子之德。",
+    "levelId": "ailian-shuo"
+  },
+  {
+    "no": 58,
+    "title": "记承天寺夜游",
+    "author": "苏轼",
+    "era": "宋",
+    "summary": "何夜无月？何处无竹柏？但少闲人如吾两人者耳。",
+    "levelId": "jicheng-si-yeyou"
+  },
+  {
+    "no": 59,
+    "title": "送东阳马生序",
+    "author": "宋濂",
+    "era": "明",
+    "summary": "幼时即嗜学——自述求学之艰，勉励后学。",
+    "levelId": "song-dongyang"
+  },
+  {
+    "no": 60,
+    "title": "湖心亭看雪",
+    "author": "张岱",
+    "era": "明",
+    "summary": "雾凇沆砀，天与云与山与水，上下一白——明末湖亭雪夜之孤高。",
+    "levelId": "huxinting-kanxue"
+  }
+]

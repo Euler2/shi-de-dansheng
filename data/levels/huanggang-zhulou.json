@@ -1,0 +1,94 @@
+{
+  "id": "huanggang-zhulou",
+  "type": "history",
+  "title": "黄冈竹楼 · 谪居",
+  "subtitle": "不可无竹——你怎么建楼",
+  "era": "宋",
+  "author": "王禹偁",
+  "protagonist": "谪黄州建竹楼的你",
+  "difficulty": 1,
+  "intro": "你被贬黄州，于小城之西万竹之中建竹楼。",
+  "guide": "你将替文中人物做几个选择。选对更接近课文与史实。",
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "branch",
+      "narration": "「竹之为瓦仅十稔，若重覆之，得二十稔。」",
+      "prompt": "你——",
+      "options": [
+        {
+          "id": "a",
+          "label": "以竹为瓦，因俗就简",
+          "isTarget": true,
+          "outcome": "你知竹瓦易朽可换——谪居之适在简。"
+        },
+        {
+          "id": "b",
+          "label": "必求雕梁画栋",
+          "outcome": "你求华——与「竹楼」之旨反。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "kind": "branch",
+      "narration": "「夏宜急雨，有瀑布声；冬宜密雪，有碎玉声。」",
+      "prompt": "你记——",
+      "options": [
+        {
+          "id": "a",
+          "label": "分四时写声与景，以小见大",
+          "isTarget": true,
+          "outcome": "你以声写景——「亦不以楼之小而废其美」。"
+        },
+        {
+          "id": "b",
+          "label": "只写谪愁，不写四时之趣",
+          "outcome": "你止于愁——王禹偁「谪居之趣」便少了。"
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "mode": "fidelity",
+    "bands": [
+      {
+        "min": 0,
+        "max": 1,
+        "text": "你的选择与课文略有出入，但故事仍说得通。"
+      },
+      {
+        "min": 2,
+        "max": 2,
+        "text": "你与课文、史意相合。"
+      }
+    ]
+  },
+  "reveal": {
+    "realText": "黄冈之地多竹……夏宜急雨，有瀑布声……",
+    "source": "王禹偁《黄冈竹楼记》",
+    "analysis": "记体写竹楼，以四时之景声见谪居旷达，「以小见大」。",
+    "takeaway": "楼不必大，趣在四时；谪居可简，简中有美。"
+  },
+  "shareCard": {
+    "headline": "黄冈竹楼 · 谪居 · 你走过了这一程",
+    "footer": "楼不必大，趣在四时；谪居可简，简中有美。"
+  },
+  "tags": [
+    "课标",
+    "宋"
+  ],
+  "facets": {
+    "dynasty": [
+      "宋"
+    ],
+    "storyKind": [
+      "记",
+      "贬谪"
+    ],
+    "theme": [
+      "写景",
+      "旷达"
+    ]
+  }
+}

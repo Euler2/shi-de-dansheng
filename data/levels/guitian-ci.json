@@ -1,0 +1,94 @@
+{
+  "id": "guitian-ci",
+  "type": "history",
+  "title": "归去来兮 · 辞官",
+  "subtitle": "田园将芜胡不归",
+  "era": "东晋",
+  "author": "陶渊明",
+  "protagonist": "辞官归隐的陶渊明（你）",
+  "difficulty": 1,
+  "intro": "你为彭泽令，束带见督邮，叹「不能为五斗米折腰」。",
+  "guide": "你将替文中人物做几个选择。选对更接近课文与史实。",
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "branch",
+      "narration": "「归去来兮，田园将芜胡不归？」",
+      "prompt": "你——",
+      "options": [
+        {
+          "id": "a",
+          "label": "决意辞官，赋《归去来兮辞》",
+          "isTarget": true,
+          "outcome": "你辞官——「觉今是而昨非」。"
+        },
+        {
+          "id": "b",
+          "label": "忍辱续任，待升迁",
+          "outcome": "你续任——「心为形役」，非陶公志。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "kind": "branch",
+      "narration": "「云无心以出岫，鸟倦飞而知还。」",
+      "prompt": "你——",
+      "options": [
+        {
+          "id": "a",
+          "label": "以云鸟自喻，归园田",
+          "isTarget": true,
+          "outcome": "你以云鸟喻归——「复得返自然」。"
+        },
+        {
+          "id": "b",
+          "label": "只怨官场，不归田园",
+          "outcome": "你怨而不归——辞之「来」便空。"
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "mode": "fidelity",
+    "bands": [
+      {
+        "min": 0,
+        "max": 1,
+        "text": "你的选择与课文略有出入，但故事仍说得通。"
+      },
+      {
+        "min": 2,
+        "max": 2,
+        "text": "你与课文、史意相合。"
+      }
+    ]
+  },
+  "reveal": {
+    "realText": "归去来兮，田园将芜胡不归……聊乘化以归尽，乐夫天命复奚疑！",
+    "source": "陶渊明《归去来兮辞》",
+    "analysis": "辞体抒志，「觉今是而昨非」，田园之思。",
+    "takeaway": "不为五斗折腰；归不是逃，是复自然。"
+  },
+  "shareCard": {
+    "headline": "归去来兮 · 辞官 · 你走过了这一程",
+    "footer": "不为五斗折腰；归不是逃，是复自然。"
+  },
+  "tags": [
+    "课标",
+    "东晋"
+  ],
+  "facets": {
+    "dynasty": [
+      "东晋"
+    ],
+    "storyKind": [
+      "辞",
+      "隐逸"
+    ],
+    "theme": [
+      "归隐",
+      "抉择"
+    ]
+  }
+}

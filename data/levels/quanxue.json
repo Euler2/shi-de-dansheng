@@ -1,0 +1,94 @@
+{
+  "id": "quanxue",
+  "type": "history",
+  "title": "青取于蓝 · 劝学",
+  "subtitle": "学不可以已——你怎么进",
+  "era": "战国",
+  "author": "荀子",
+  "protagonist": "听荀子论学的你",
+  "difficulty": 1,
+  "intro": "荀子曰：「学不可以已。」你要择其义而行。",
+  "guide": "你将替文中人物做几个选择。选对更接近课文与史实。",
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "branch",
+      "narration": "「青，取之于蓝，而青于蓝。」",
+      "prompt": "你理解——",
+      "options": [
+        {
+          "id": "a",
+          "label": "学能增益，可胜于前",
+          "isTarget": true,
+          "outcome": "你知学可「青于蓝」——进学不止。"
+        },
+        {
+          "id": "b",
+          "label": "天生已定，学无用",
+          "outcome": "你信定命——与「学不可以已」相悖。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "kind": "branch",
+      "narration": "「假舆马者，非利足也，而致千里。」",
+      "prompt": "换作你——",
+      "options": [
+        {
+          "id": "a",
+          "label": "善假于物，借力进学",
+          "isTarget": true,
+          "outcome": "你知假师、假书、假器以进——与荀子一致。"
+        },
+        {
+          "id": "b",
+          "label": "只靠蛮力，不用外助",
+          "outcome": "你拒假物——「致千里」便难。"
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "mode": "fidelity",
+    "bands": [
+      {
+        "min": 0,
+        "max": 1,
+        "text": "你的选择与课文略有出入，但故事仍说得通。"
+      },
+      {
+        "min": 2,
+        "max": 2,
+        "text": "你与课文、史意相合。"
+      }
+    ]
+  },
+  "reveal": {
+    "realText": "学不可以已……君子生非异也，善假于物也。",
+    "source": "荀子《劝学》",
+    "analysis": "论说层层递进：比喻证学不可已，再证善假于物。",
+    "takeaway": "学不可已；善假于物，方能致远。"
+  },
+  "shareCard": {
+    "headline": "青取于蓝 · 劝学 · 你走过了这一程",
+    "footer": "学不可已；善假于物，方能致远。"
+  },
+  "tags": [
+    "课标",
+    "战国"
+  ],
+  "facets": {
+    "dynasty": [
+      "战国"
+    ],
+    "storyKind": [
+      "论说",
+      "为学"
+    ],
+    "theme": [
+      "为学",
+      "积累"
+    ]
+  }
+}

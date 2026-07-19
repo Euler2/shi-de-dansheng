@@ -1,0 +1,119 @@
+{
+  "id": "lisao",
+  "type": "poem",
+  "title": "离骚",
+  "subtitle": "抒怀 · 课标背诵篇",
+  "era": "战国",
+  "author": "屈原",
+  "protagonist": "面对景与情，拟写《离骚》的诗人",
+  "difficulty": 1,
+  "intro": "课标篇目《离骚》（屈原）。你从眼前景或心中情起笔——",
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "compose",
+      "narration": "你想写《离骚》，先定下起句——",
+      "prompt": "起句怎么写",
+      "options": [
+        {
+          "id": "a",
+          "label": "帝高阳之苗裔兮，朕皇考曰…",
+          "fragment": "帝高阳之苗裔兮，朕皇考曰伯庸。",
+          "isTarget": true,
+          "whyHere": "与流传本起句一致，便于与后文章法相承。"
+        },
+        {
+          "id": "b",
+          "label": "帝高阳之苗裔兮…朕皇考曰伯庸",
+          "fragment": "帝高阳之苗裔兮…朕皇考曰伯庸。",
+          "altNote": "意境可通，但与名篇起句不同，读感略别。"
+        },
+        {
+          "id": "c",
+          "label": "且向帝高阳之外",
+          "fragment": "且向帝高阳之外",
+          "altNote": "另起炉灶，亦成一句，只是非此作经典开篇。"
+        }
+      ],
+      "lineCompare": {
+        "realLine": "帝高阳之苗裔兮，朕皇考曰伯庸。",
+        "whyOriginal": "课标与通行本以此起句开篇。"
+      }
+    },
+    {
+      "id": "s2",
+      "kind": "compose",
+      "narration": "承上句，接着写——",
+      "prompt": "第二句",
+      "options": [
+        {
+          "id": "a",
+          "label": "摄提贞于孟陬兮，惟庚寅吾…",
+          "fragment": "摄提贞于孟陬兮，惟庚寅吾以降。",
+          "isTarget": true,
+          "whyHere": "承接起句，是通行本第二句。"
+        },
+        {
+          "id": "b",
+          "label": "摄提贞于孟陬兮…惟庚寅吾以降",
+          "fragment": "摄提贞于孟陬兮…惟庚寅吾以降。",
+          "altNote": "可成对句，但与原作次句不同。"
+        },
+        {
+          "id": "c",
+          "label": "换一意境收束",
+          "fragment": "且向摄提贞于外",
+          "altNote": "另写收束，全篇风味随之而变。"
+        }
+      ],
+      "lineCompare": {
+        "realLine": "摄提贞于孟陬兮，惟庚寅吾以降。",
+        "whyOriginal": "名篇次句，与起句相配。"
+      }
+    }
+  ],
+  "scoring": {
+    "mode": "resonance",
+    "bands": [
+      {
+        "min": 2,
+        "max": 2,
+        "text": "与原作同工——名篇筋骨已在。"
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "text": "一句相合，一句别创，亦有趣味。"
+      },
+      {
+        "min": 0,
+        "max": 0,
+        "text": "另写一路，对照真迹当别有会心。"
+      }
+    ]
+  },
+  "reveal": {
+    "realText": "帝高阳之苗裔兮，朕皇考曰伯庸。摄提贞于孟陬兮，惟庚寅吾以降。",
+    "source": "屈原《离骚》",
+    "analysis": "义务教育/高中课标推荐背诵篇目。全诗意境可从此两句窥见一斑。",
+    "takeaway": "熟读后，不妨闭目击节，体会为何千年流传。"
+  },
+  "shareCard": {
+    "headline": "离骚",
+    "footer": "诗的诞生"
+  },
+  "facets": {
+    "dynasty": [
+      "战国"
+    ],
+    "author": [
+      "屈原"
+    ],
+    "form": [
+      "楚辞"
+    ],
+    "theme": [
+      "抒怀"
+    ]
+  }
+}

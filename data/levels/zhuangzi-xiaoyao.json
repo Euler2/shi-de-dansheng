@@ -1,0 +1,94 @@
+{
+  "id": "zhuangzi-xiaoyao",
+  "type": "history",
+  "title": "逍遥游 · 大鹏",
+  "subtitle": "水击三千里，抟扶摇而上",
+  "era": "战国",
+  "author": "庄子",
+  "protagonist": "读《逍遥游》的你",
+  "difficulty": 1,
+  "intro": "你要随庄子思「至人无己，神人无功，圣人无名」。",
+  "guide": "你将替文中人物做几个选择。选对更接近课文与史实。",
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "branch",
+      "narration": "「至人无己，神人无功，圣人无名。」",
+      "prompt": "你——",
+      "options": [
+        {
+          "id": "a",
+          "label": "知逍遥在「无待」",
+          "isTarget": true,
+          "outcome": "你悟「无待」——不依赖外物，方近逍遥。"
+        },
+        {
+          "id": "b",
+          "label": "以为逍遥即游山玩水",
+          "outcome": "你浅解为游——「无待」之旨未达。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "kind": "branch",
+      "narration": "「宋荣子犹然笑之……彼其于世，未数数然也。」",
+      "prompt": "你——",
+      "options": [
+        {
+          "id": "a",
+          "label": "知举世誉非而不加劝",
+          "isTarget": true,
+          "outcome": "你知荣子之度——内外不随毁誉动。"
+        },
+        {
+          "id": "b",
+          "label": "力求举世皆誉",
+          "outcome": "你求誉——与「无待」相反。"
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "mode": "fidelity",
+    "bands": [
+      {
+        "min": 0,
+        "max": 1,
+        "text": "你的选择与课文略有出入，但故事仍说得通。"
+      },
+      {
+        "min": 2,
+        "max": 2,
+        "text": "你与课文、史意相合。"
+      }
+    ]
+  },
+  "reveal": {
+    "realText": "至人无己，神人无功，圣人无名……若夫乘天地之正，而御六气之辩，以游无穷者，彼且恶乎待哉！",
+    "source": "庄子《逍遥游》",
+    "analysis": "全篇由小大之辩至「无待」逍遥，高中选修名篇。",
+    "takeaway": "逍遥在「无待」；毁誉不动，方得自由。"
+  },
+  "shareCard": {
+    "headline": "逍遥游 · 大鹏 · 你走过了这一程",
+    "footer": "逍遥在「无待」；毁誉不动，方得自由。"
+  },
+  "tags": [
+    "课标",
+    "战国"
+  ],
+  "facets": {
+    "dynasty": [
+      "战国"
+    ],
+    "storyKind": [
+      "寓言",
+      "哲理"
+    ],
+    "theme": [
+      "逍遥",
+      "无待"
+    ]
+  }
+}

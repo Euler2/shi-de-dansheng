@@ -1,0 +1,110 @@
+{
+  "id": "xue-meihua",
+  "type": "poem",
+  "title": "雪梅",
+  "subtitle": "七言绝句 · 课标背诵",
+  "era": "宋",
+  "author": "卢梅坡",
+  "protagonist": "拟写《雪梅》的诗人",
+  "difficulty": 1,
+  "intro": "课标篇目《雪梅》（卢梅坡）。你从眼前景或心中情起笔——",
+  "guide": "你将一步步写下这一篇。选对更接近流传名篇。",
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "compose",
+      "narration": "你先定下起句——",
+      "prompt": "选起句方向",
+      "options": [
+        {
+          "id": "a",
+          "label": "梅雪争春未肯降，",
+          "fragment": "梅雪争春未肯降，骚人阁笔费评章。",
+          "isTarget": true,
+          "whyHere": "与课标通行本、声情相合。"
+        },
+        {
+          "id": "b",
+          "label": "另起意境",
+          "fragment": "梅雪……章。",
+          "altNote": "意境可通，但与通行本不同。"
+        }
+      ],
+      "lineCompare": {
+        "realLine": "梅雪争春未肯降，骚人阁笔费评章。",
+        "whyOriginal": "起句定调，名篇多由此出。"
+      }
+    },
+    {
+      "id": "s2",
+      "kind": "compose",
+      "narration": "再写下一句——",
+      "prompt": "接下一句",
+      "options": [
+        {
+          "id": "a",
+          "label": "梅须逊雪三分白，",
+          "fragment": "梅须逊雪三分白，雪却输梅一段香。",
+          "isTarget": true,
+          "whyHere": "与上句相承，合于名篇。"
+        },
+        {
+          "id": "b",
+          "label": "换另一种收束",
+          "fragment": "梅须……",
+          "altNote": "可成句，但与名篇不同。"
+        }
+      ],
+      "lineCompare": {
+        "realLine": "梅须逊雪三分白，雪却输梅一段香。",
+        "whyOriginal": "承转之间，见作者匠心。"
+      }
+    }
+  ],
+  "scoring": {
+    "mode": "resonance",
+    "bands": [
+      {
+        "min": 0,
+        "max": 1,
+        "text": "你的版本有情致，与名篇略异。"
+      },
+      {
+        "min": 2,
+        "max": 2,
+        "text": "你写成了通行名篇的关键句。"
+      }
+    ]
+  },
+  "reveal": {
+    "realText": "梅雪争春未肯降，骚人阁笔费评章。，梅须逊雪三分白，雪却输梅一段香。。",
+    "source": "卢梅坡《雪梅》",
+    "analysis": "《雪梅》为课标篇目，七言绝句，主题：咏物、比较。",
+    "takeaway": "各有所长；白与香，不必争高下。"
+  },
+  "shareCard": {
+    "headline": "雪梅 · 你拼出的版本",
+    "footer": "各有所长；白与香，不必争高下。"
+  },
+  "tags": [
+    "宋",
+    "七言绝句",
+    "咏物",
+    "比较"
+  ],
+  "facets": {
+    "dynasty": [
+      "宋"
+    ],
+    "author": [
+      "卢梅坡"
+    ],
+    "form": [
+      "七言绝句"
+    ],
+    "theme": [
+      "咏物",
+      "比较"
+    ]
+  }
+}

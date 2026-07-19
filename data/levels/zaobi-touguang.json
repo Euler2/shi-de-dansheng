@@ -1,0 +1,94 @@
+{
+  "id": "zaobi-touguang",
+  "type": "history",
+  "title": "凿壁偷光 · 匡衡",
+  "subtitle": "家贫无烛——你怎么读书",
+  "era": "汉",
+  "author": "《西京杂记》",
+  "protagonist": "家贫好学的匡衡",
+  "difficulty": 1,
+  "intro": "你家贫，无烛，邻家有光。",
+  "guide": "你将替文中人物做几个选择。选对更接近课文与史实。",
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "branch",
+      "narration": "「匡衡勤学而无烛，邻舍有烛而不逮。」",
+      "prompt": "你——",
+      "options": [
+        {
+          "id": "a",
+          "label": "凿壁引光，夜读不辍",
+          "isTarget": true,
+          "outcome": "你引光苦读——后至丞相，学力为本。"
+        },
+        {
+          "id": "b",
+          "label": "怨命不读，待来日",
+          "outcome": "你怨命不读——「偷光」之志便无。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "kind": "branch",
+      "narration": "「衡乃穿壁引其光，以书映光而读之。」",
+      "prompt": "换作你——",
+      "options": [
+        {
+          "id": "a",
+          "label": "借光亦读，不耻贫薄",
+          "isTarget": true,
+          "outcome": "你不耻贫——志在学，不在华。"
+        },
+        {
+          "id": "b",
+          "label": "耻于借光，宁可不读",
+          "outcome": "你重面子——学便止。"
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "mode": "fidelity",
+    "bands": [
+      {
+        "min": 0,
+        "max": 1,
+        "text": "你的选择与课文略有出入，但故事仍说得通。"
+      },
+      {
+        "min": 2,
+        "max": 2,
+        "text": "你与课文、史意相合。"
+      }
+    ]
+  },
+  "reveal": {
+    "realText": "匡衡勤学而无烛……穿壁引其光，以书映光而读之。",
+    "source": "《西京杂记》",
+    "analysis": "励志典故，重在贫而不辍，非鼓励凿壁（今读之宜重精神）。",
+    "takeaway": "贫不辍学；志在读书，光可借而志不可夺。"
+  },
+  "shareCard": {
+    "headline": "凿壁偷光 · 匡衡 · 你走过了这一程",
+    "footer": "贫不辍学；志在读书，光可借而志不可夺。"
+  },
+  "tags": [
+    "课标",
+    "汉"
+  ],
+  "facets": {
+    "dynasty": [
+      "汉"
+    ],
+    "storyKind": [
+      "轶事",
+      "励志"
+    ],
+    "theme": [
+      "为学",
+      "立志"
+    ]
+  }
+}

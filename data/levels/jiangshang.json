@@ -1,0 +1,119 @@
+{
+  "id": "jiangshang",
+  "type": "poem",
+  "title": "江上渔者",
+  "subtitle": "悯渔 · 课标背诵篇",
+  "era": "宋",
+  "author": "范仲淹",
+  "protagonist": "面对景与情，拟写《江上渔者》的诗人",
+  "difficulty": 1,
+  "intro": "课标篇目《江上渔者》（范仲淹）。你从眼前景或心中情起笔——",
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "compose",
+      "narration": "你想写《江上渔者》，先定下起句——",
+      "prompt": "起句怎么写",
+      "options": [
+        {
+          "id": "a",
+          "label": "江上往来人，但爱鲈鱼美。",
+          "fragment": "江上往来人，但爱鲈鱼美。",
+          "isTarget": true,
+          "whyHere": "与流传本起句一致，便于与后文章法相承。"
+        },
+        {
+          "id": "b",
+          "label": "江上往来人，…爱鲈鱼美。",
+          "fragment": "江上往来人，…爱鲈鱼美。",
+          "altNote": "意境可通，但与名篇起句不同，读感略别。"
+        },
+        {
+          "id": "c",
+          "label": "且向江上往来外",
+          "fragment": "且向江上往来外",
+          "altNote": "另起炉灶，亦成一句，只是非此作经典开篇。"
+        }
+      ],
+      "lineCompare": {
+        "realLine": "江上往来人，但爱鲈鱼美。",
+        "whyOriginal": "课标与通行本以此起句开篇。"
+      }
+    },
+    {
+      "id": "s2",
+      "kind": "compose",
+      "narration": "承上句，接着写——",
+      "prompt": "第二句",
+      "options": [
+        {
+          "id": "a",
+          "label": "君看一叶舟，出没风波里。",
+          "fragment": "君看一叶舟，出没风波里。",
+          "isTarget": true,
+          "whyHere": "承接起句，是通行本第二句。"
+        },
+        {
+          "id": "b",
+          "label": "君看一叶舟，…没风波里。",
+          "fragment": "君看一叶舟，…没风波里。",
+          "altNote": "可成对句，但与原作次句不同。"
+        },
+        {
+          "id": "c",
+          "label": "换一意境收束",
+          "fragment": "且向君看一叶外",
+          "altNote": "另写收束，全篇风味随之而变。"
+        }
+      ],
+      "lineCompare": {
+        "realLine": "君看一叶舟，出没风波里。",
+        "whyOriginal": "名篇次句，与起句相配。"
+      }
+    }
+  ],
+  "scoring": {
+    "mode": "resonance",
+    "bands": [
+      {
+        "min": 2,
+        "max": 2,
+        "text": "与原作同工——名篇筋骨已在。"
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "text": "一句相合，一句别创，亦有趣味。"
+      },
+      {
+        "min": 0,
+        "max": 0,
+        "text": "另写一路，对照真迹当别有会心。"
+      }
+    ]
+  },
+  "reveal": {
+    "realText": "江上往来人，但爱鲈鱼美。君看一叶舟，出没风波里。",
+    "source": "范仲淹《江上渔者》",
+    "analysis": "义务教育/高中课标推荐背诵篇目。全诗意境可从此两句窥见一斑。",
+    "takeaway": "熟读后，不妨闭目击节，体会为何千年流传。"
+  },
+  "shareCard": {
+    "headline": "江上渔者",
+    "footer": "诗的诞生"
+  },
+  "facets": {
+    "dynasty": [
+      "宋"
+    ],
+    "author": [
+      "范仲淹"
+    ],
+    "form": [
+      "五言绝句"
+    ],
+    "theme": [
+      "悯渔"
+    ]
+  }
+}

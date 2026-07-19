@@ -1,0 +1,94 @@
+{
+  "id": "shizhongshan-ji",
+  "type": "history",
+  "title": "石钟山记 · 目见耳闻",
+  "subtitle": "事不目见耳闻，而臆断其有无，可乎",
+  "era": "宋",
+  "author": "苏轼",
+  "protagonist": "考石钟山的苏轼（你）",
+  "difficulty": 1,
+  "intro": "郦道元、李渤之说可疑，你要亲历考之。",
+  "guide": "你将替文中人物做几个选择。选对更接近课文与史实。",
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "branch",
+      "narration": "「至其夜，大风浪起，水石相搏，声如洪钟。」",
+      "prompt": "你——",
+      "options": [
+        {
+          "id": "a",
+          "label": "亲闻其声，证前人之误",
+          "isTarget": true,
+          "outcome": "你目见耳闻——「是说也，有之」。"
+        },
+        {
+          "id": "b",
+          "label": "仍信旧说，不必夜探",
+          "outcome": "你信臆——与「考」之旨反。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "kind": "branch",
+      "narration": "「事不目见耳闻，而臆断其有无，可乎？」",
+      "prompt": "结句你——",
+      "options": [
+        {
+          "id": "a",
+          "label": "以反问戒后人",
+          "isTarget": true,
+          "outcome": "你以反问收——「郦元之所见，李渤之所未测」。"
+        },
+        {
+          "id": "b",
+          "label": "称臆断亦可",
+          "outcome": "你允臆断——苏文之核便破。"
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "mode": "fidelity",
+    "bands": [
+      {
+        "min": 0,
+        "max": 1,
+        "text": "你的选择与课文略有出入，但故事仍说得通。"
+      },
+      {
+        "min": 2,
+        "max": 2,
+        "text": "你与课文、史意相合。"
+      }
+    ]
+  },
+  "reveal": {
+    "realText": "《水经》云……事不目见耳闻，而臆断其有无，可乎？",
+    "source": "苏轼《石钟山记》",
+    "analysis": "游记兼考辨，质疑旧说，强调实证。",
+    "takeaway": "学问在证，不在臆；目见耳闻，方敢言有。"
+  },
+  "shareCard": {
+    "headline": "石钟山记 · 目见耳闻 · 你走过了这一程",
+    "footer": "学问在证，不在臆；目见耳闻，方敢言有。"
+  },
+  "tags": [
+    "课标",
+    "宋"
+  ],
+  "facets": {
+    "dynasty": [
+      "宋"
+    ],
+    "storyKind": [
+      "游记",
+      "考辨"
+    ],
+    "theme": [
+      "实证",
+      "求真"
+    ]
+  }
+}

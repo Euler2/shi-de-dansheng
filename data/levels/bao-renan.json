@@ -1,0 +1,94 @@
+{
+  "id": "bao-renan",
+  "type": "history",
+  "title": "报任安书 · 著史",
+  "subtitle": "人固有一死，或重于泰山",
+  "era": "汉",
+  "author": "司马迁",
+  "protagonist": "受宫刑后著史的司马迁（你）",
+  "difficulty": 1,
+  "intro": "任安书来，你要陈说为何忍辱不死。",
+  "guide": "你将替文中人物做几个选择。选对更接近课文与史实。",
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "branch",
+      "narration": "「人固有一死，或重于泰山，或轻于鸿毛。」",
+      "prompt": "你——",
+      "options": [
+        {
+          "id": "a",
+          "label": "愿舍身完成《史记》",
+          "isTarget": true,
+          "outcome": "你择「重于泰山」——著史传志。"
+        },
+        {
+          "id": "b",
+          "label": "即刻自裁以明志",
+          "outcome": "你即死——「究天人之际」便无续。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "kind": "branch",
+      "narration": "「仆诚已著书百余篇，藏之名山，传之其人。」",
+      "prompt": "你——",
+      "options": [
+        {
+          "id": "a",
+          "label": "忍辱负重，待书成",
+          "isTarget": true,
+          "outcome": "你忍宫刑之辱——为传后。"
+        },
+        {
+          "id": "b",
+          "label": "毁稿不出，求名节",
+          "outcome": "你毁稿——史传无继，非太史公心。"
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "mode": "fidelity",
+    "bands": [
+      {
+        "min": 0,
+        "max": 1,
+        "text": "你的选择与课文略有出入，但故事仍说得通。"
+      },
+      {
+        "min": 2,
+        "max": 2,
+        "text": "你与课文、史意相合。"
+      }
+    ]
+  },
+  "reveal": {
+    "realText": "人固有一死，或重于泰山，或轻于鸿毛……究天人之际，通古今之变，成一家之言。",
+    "source": "司马迁《报任安书》",
+    "analysis": "书信体陈情，以死生之轻重论著史之志。",
+    "takeaway": "死有轻重；忍辱非怯，为传后世。"
+  },
+  "shareCard": {
+    "headline": "报任安书 · 著史 · 你走过了这一程",
+    "footer": "死有轻重；忍辱非怯，为传后世。"
+  },
+  "tags": [
+    "课标",
+    "汉"
+  ],
+  "facets": {
+    "dynasty": [
+      "汉"
+    ],
+    "storyKind": [
+      "书信",
+      "励志"
+    ],
+    "theme": [
+      "著史",
+      "抉择"
+    ]
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "id": "yi-shandong-xiongdi",
+  "type": "poem",
+  "title": "九月九日忆山东兄弟",
+  "subtitle": "想念的最高境界，是想象着对方也在想你",
+  "era": "唐",
+  "author": "王维",
+  "protagonist": "十七岁、独自客居长安的少年",
+  "difficulty": 1,
+  "intro": "重阳节到了。你才十七岁，独自一人在长安求取功名。家家登高、佩茱萸、饮菊酒，唯独你，举目无亲。",
+  "guide": "你将一句句写下此刻的心绪。没有标准答案，选你心里那个就好。",
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "compose",
+      "narration": "佳节里，你一个人——",
+      "prompt": "选起句",
+      "options": [
+        {
+          "id": "a",
+          "label": "独在异乡，做一个异客",
+          "note": "两个『异』字叠用",
+          "fragment": "独在异乡为异客",
+          "tone": "cold",
+          "isTarget": true,
+          "whyHere": "这一句在声韵、意象或章法上更贴合作者当时的心绪与流传本。"
+        },
+        {
+          "id": "b",
+          "label": "千里飘零，客居他方",
+          "note": "漂泊",
+          "fragment": "千里飘零客异乡",
+          "tone": "bleak",
+          "altNote": "这样写也成一首完整的诗，只是意境与名作略别。"
+        },
+        {
+          "id": "c",
+          "label": "异乡又是一年深秋",
+          "note": "时序",
+          "fragment": "异乡又是一年秋",
+          "tone": "neutral",
+          "altNote": "这样写也成一首完整的诗，只是意境与名作略别。"
+        }
+      ],
+      "lineCompare": {
+        "realLine": "独在异乡为异客",
+        "whyOriginal": "这一句在声韵、意象或章法上更贴合作者当时的心绪与流传本。"
+      }
+    },
+    {
+      "id": "s2",
+      "kind": "compose",
+      "narration": "于是——",
+      "prompt": "选第二句",
+      "options": [
+        {
+          "id": "a",
+          "label": "每逢佳节，就加倍思亲",
+          "note": "道尽千古同感",
+          "fragment": "每逢佳节倍思亲",
+          "tone": "cold",
+          "isTarget": true,
+          "whyHere": "这一句在声韵、意象或章法上更贴合作者当时的心绪与流传本。"
+        },
+        {
+          "id": "b",
+          "label": "佳节孤身，倍觉黯然",
+          "note": "自伤",
+          "fragment": "佳节孤身倍黯然",
+          "tone": "bleak",
+          "altNote": "这样写也成一首完整的诗，只是意境与名作略别。"
+        },
+        {
+          "id": "c",
+          "label": "把酒思亲，泪暗暗弹",
+          "note": "直白",
+          "fragment": "把酒思亲泪暗弹",
+          "tone": "bleak",
+          "altNote": "这样写也成一首完整的诗，只是意境与名作略别。"
+        }
+      ],
+      "lineCompare": {
+        "realLine": "每逢佳节倍思亲",
+        "whyOriginal": "这一句在声韵、意象或章法上更贴合作者当时的心绪与流传本。"
+      }
+    },
+    {
+      "id": "s3",
+      "kind": "compose",
+      "narration": "你想起远方的兄弟，此刻多半正——",
+      "prompt": "选第三句",
+      "options": [
+        {
+          "id": "a",
+          "label": "结伴登高去了",
+          "note": "从对方写起",
+          "fragment": "遥知兄弟登高处",
+          "tone": "neutral",
+          "isTarget": true,
+          "whyHere": "这一句在声韵、意象或章法上更贴合作者当时的心绪与流传本。"
+        },
+        {
+          "id": "b",
+          "label": "想见亲朋共举杯",
+          "note": "团聚",
+          "fragment": "想见亲朋共举杯",
+          "tone": "warm",
+          "altNote": "这样写也成一首完整的诗，只是意境与名作略别。"
+        },
+        {
+          "id": "c",
+          "label": "不知可还安康",
+          "note": "牵挂",
+          "fragment": "不知兄弟可安康",
+          "tone": "neutral",
+          "altNote": "这样写也成一首完整的诗，只是意境与名作略别。"
+        }
+      ],
+      "lineCompare": {
+        "realLine": "遥知兄弟登高处",
+        "whyOriginal": "这一句在声韵、意象或章法上更贴合作者当时的心绪与流传本。"
+      }
+    },
+    {
+      "id": "s4",
+      "kind": "compose",
+      "narration": "他们登高、遍插茱萸时，会发现——",
+      "prompt": "选收尾",
+      "options": [
+        {
+          "id": "a",
+          "label": "独独少了我一人",
+          "note": "从兄弟眼中写自己",
+          "fragment": "遍插茱萸少一人",
+          "tone": "cold",
+          "isTarget": true,
+          "whyHere": "这一句在声韵、意象或章法上更贴合作者当时的心绪与流传本。"
+        },
+        {
+          "id": "b",
+          "label": "唯有游子未归家",
+          "note": "自述",
+          "fragment": "唯少游子未还家",
+          "tone": "bleak",
+          "altNote": "这样写也成一首完整的诗，只是意境与名作略别。"
+        },
+        {
+          "id": "c",
+          "label": "只我天涯不得归",
+          "note": "直抒",
+          "fragment": "独我天涯不得归",
+          "tone": "bleak",
+          "altNote": "这样写也成一首完整的诗，只是意境与名作略别。"
+        }
+      ],
+      "lineCompare": {
+        "realLine": "遍插茱萸少一人",
+        "whyOriginal": "这一句在声韵、意象或章法上更贴合作者当时的心绪与流传本。"
+      }
+    }
+  ],
+  "scoring": {
+    "mode": "resonance",
+    "bands": [
+      {
+        "min": 0,
+        "max": 1,
+        "text": "你写出了自己的思念，真切，只是少了那一转——从兄弟眼里看自己。"
+      },
+      {
+        "min": 2,
+        "max": 3,
+        "text": "思亲之情已经满了，再往下一句，会有一个巧妙的转身——"
+      },
+      {
+        "min": 4,
+        "max": 4,
+        "text": "你与十七岁的王维，在同一个重阳，想起了同一群人。"
+      }
+    ]
+  },
+  "reveal": {
+    "realText": "独在异乡为异客，每逢佳节倍思亲。遥知兄弟登高处，遍插茱萸少一人。",
+    "source": "王维《九月九日忆山东兄弟》",
+    "analysis": "「每逢佳节倍思亲」七个字，写尽了所有人的共同心事。但更妙的是后两句的视角一转：明明是「我」在想家人，王维却写「兄弟们登高，会发现少了我一个」——把自己的孤独，放到亲人的眼睛里去写。思念，一下子从单向变成了双向，更疼也更暖。",
+    "takeaway": "最深的想念，是想象着此刻，对方也正在想你。"
+  },
+  "shareCard": {
+    "headline": "我的重阳 · 与王维的重阳",
+    "footer": "最深的想念，是想象着此刻，对方也正在想你。"
+  },
+  "tags": [
+    "唐诗",
+    "思亲",
+    "佳节",
+    "视角"
+  ],
+  "facets": {
+    "dynasty": [
+      "唐"
+    ],
+    "author": [
+      "王维"
+    ],
+    "form": [
+      "七言绝句"
+    ],
+    "theme": [
+      "思乡",
+      "重阳"
+    ]
+  }
+}

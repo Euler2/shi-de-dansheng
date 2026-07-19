@@ -1,0 +1,99 @@
+{
+  "id": "yonge",
+  "type": "poem",
+  "title": "咏鹅",
+  "subtitle": "七岁孩童，怎样咏一只白鹅",
+  "era": "唐",
+  "author": "骆宾王",
+  "protagonist": "初学作诗的孩子",
+  "difficulty": 1,
+  "intro": "池塘边，白鹅拨水。先生让你即兴吟咏——",
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "compose",
+      "narration": "先向鹅打招呼，起笔宜简——",
+      "prompt": "第一句怎么开口",
+      "options": [
+        {
+          "id": "a",
+          "label": "向鹅问声好",
+          "fragment": "鹅，鹅，鹅",
+          "isTarget": true,
+          "whyHere": "叠字起句，如呼如唤，童趣盎然，是骆宾王七岁名句。"
+        },
+        {
+          "id": "b",
+          "label": "写鹅的颜色",
+          "fragment": "白毛浮绿水",
+          "altNote": "名句在后，起句不宜先写毛色。"
+        },
+        {
+          "id": "c",
+          "label": "写池塘风景",
+          "fragment": "池水清且浅",
+          "altNote": "写景有余，咏物不足。"
+        }
+      ],
+      "lineCompare": {
+        "realLine": "鹅，鹅，鹅",
+        "whyOriginal": "三声「鹅」最像孩童脱口而出的咏叹。"
+      }
+    },
+    {
+      "id": "s2",
+      "kind": "compose",
+      "narration": "接着写鹅如何在水中——",
+      "prompt": "写鹅的姿态",
+      "options": [
+        {
+          "id": "a",
+          "label": "弯颈向天歌",
+          "fragment": "曲项向天歌",
+          "isTarget": true,
+          "whyHere": "「曲项」状颈，「向天歌」写鸣声，活灵活现。"
+        },
+        {
+          "id": "b",
+          "label": "低头啄鱼虾",
+          "fragment": "低头啄鱼虾",
+          "altNote": "亦合理，但不如向天高歌有气势。"
+        },
+        {
+          "id": "c",
+          "label": "静静浮水面",
+          "fragment": "静静浮水面",
+          "altNote": "太静，少了咏鹅的欢快。"
+        }
+      ],
+      "lineCompare": {
+        "realLine": "曲项向天歌",
+        "whyOriginal": "曲项与向天歌，一形一声，画面立刻动起来。"
+      }
+    }
+  ],
+  "scoring": {
+    "mode": "resonance",
+    "bands": [
+      { "min": 2, "max": 2, "text": "与原作同工——鹅声如在耳边。" },
+      { "min": 1, "max": 1, "text": "情意可通，略换写法。" },
+      { "min": 0, "max": 0, "text": "你的咏物，另有一番趣味。" }
+    ]
+  },
+  "reveal": {
+    "realText": "鹅，鹅，鹅，曲项向天歌。白毛浮绿水，红掌拨清波。",
+    "source": "骆宾王《咏鹅》",
+    "analysis": "课标小学背诵篇目。全诗十八字，色（白、绿、红）、形（曲项）、声（歌）、动（拨）俱到。",
+    "takeaway": "好诗不必长大——看见、喊出来，就是诗。"
+  },
+  "shareCard": {
+    "headline": "鹅，鹅，鹅",
+    "footer": "诗的诞生"
+  },
+  "facets": {
+    "dynasty": ["唐"],
+    "author": ["骆宾王"],
+    "form": ["五言古诗"],
+    "theme": ["咏物", "童趣"]
+  }
+}

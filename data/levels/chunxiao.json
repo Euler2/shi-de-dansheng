@@ -1,0 +1,213 @@
+{
+  "id": "chunxiao",
+  "type": "poem",
+  "title": "春晓",
+  "subtitle": "一觉睡到天亮，怎么写成一首好诗",
+  "era": "唐",
+  "author": "孟浩然",
+  "protagonist": "春日里一觉睡到天亮的人",
+  "difficulty": 1,
+  "intro": "春天的夜里好睡。你一觉沉沉睡去，再睁眼时，窗纸已经透亮——",
+  "guide": "你将一步步写下这个春日清晨的心绪。没有标准答案，选你心里那个就好。",
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "compose",
+      "narration": "你醒来，天竟已大亮，浑然——",
+      "prompt": "选此刻的感觉",
+      "options": [
+        {
+          "id": "a",
+          "label": "不知不觉就天亮了",
+          "note": "酣睡、慵懒",
+          "fragment": "春眠不觉晓",
+          "tone": "warm",
+          "isTarget": true,
+          "whyHere": "这一句在声韵、意象或章法上更贴合作者当时的心绪与流传本。"
+        },
+        {
+          "id": "b",
+          "label": "倦意还赖在身上",
+          "note": "困倦、迟缓",
+          "fragment": "春眠倦未消",
+          "tone": "neutral",
+          "altNote": "这样写也成一首完整的诗，只是意境与名作略别。"
+        },
+        {
+          "id": "c",
+          "label": "残梦还没醒透",
+          "note": "恍惚、留恋",
+          "fragment": "春眠梦未醒",
+          "tone": "neutral",
+          "altNote": "这样写也成一首完整的诗，只是意境与名作略别。"
+        }
+      ],
+      "lineCompare": {
+        "realLine": "春眠不觉晓",
+        "whyOriginal": "这一句在声韵、意象或章法上更贴合作者当时的心绪与流传本。"
+      }
+    },
+    {
+      "id": "s2",
+      "kind": "compose",
+      "narration": "你还没起身，先听见——",
+      "prompt": "选耳边所闻",
+      "options": [
+        {
+          "id": "a",
+          "label": "到处都是鸟叫",
+          "note": "生机、清亮",
+          "fragment": "处处闻啼鸟",
+          "tone": "bright",
+          "isTarget": true,
+          "whyHere": "这一句在声韵、意象或章法上更贴合作者当时的心绪与流传本。"
+        },
+        {
+          "id": "b",
+          "label": "满院子的花香",
+          "note": "馥郁、温柔",
+          "fragment": "满院闻花香",
+          "tone": "warm",
+          "altNote": "这样写也成一首完整的诗，只是意境与名作略别。"
+        },
+        {
+          "id": "c",
+          "label": "一帘晃眼的晨光",
+          "note": "明净、安静",
+          "fragment": "一帘看晨光",
+          "tone": "bright",
+          "altNote": "这样写也成一首完整的诗，只是意境与名作略别。"
+        }
+      ],
+      "lineCompare": {
+        "realLine": "处处闻啼鸟",
+        "whyOriginal": "这一句在声韵、意象或章法上更贴合作者当时的心绪与流传本。"
+      }
+    },
+    {
+      "id": "s3",
+      "kind": "compose",
+      "narration": "你忽然想起，昨夜里——",
+      "prompt": "选你记起的事",
+      "options": [
+        {
+          "id": "a",
+          "label": "刮过一阵风、下过一阵雨",
+          "note": "风雨、惦念",
+          "fragment": "夜来风雨声",
+          "tone": "neutral",
+          "isTarget": true,
+          "whyHere": "这一句在声韵、意象或章法上更贴合作者当时的心绪与流传本。"
+        },
+        {
+          "id": "b",
+          "label": "月色照满了窗",
+          "note": "清朗、静好",
+          "fragment": "夜来月满窗",
+          "tone": "cold",
+          "altNote": "这样写也成一首完整的诗，只是意境与名作略别。"
+        },
+        {
+          "id": "c",
+          "label": "春寒透进了被",
+          "note": "微凉、清寂",
+          "fragment": "夜来春寒生",
+          "tone": "cold",
+          "altNote": "这样写也成一首完整的诗，只是意境与名作略别。"
+        }
+      ],
+      "lineCompare": {
+        "realLine": "夜来风雨声",
+        "whyOriginal": "这一句在声韵、意象或章法上更贴合作者当时的心绪与流传本。"
+      }
+    },
+    {
+      "id": "s4",
+      "kind": "compose",
+      "narration": "于是你心里轻轻一动——",
+      "prompt": "此刻你想",
+      "options": [
+        {
+          "id": "a",
+          "label": "不知吹落了多少花",
+          "note": "惜春、淡淡怅然",
+          "fragment": "花落知多少",
+          "tone": "neutral",
+          "isTarget": true,
+          "whyHere": "这一句在声韵、意象或章法上更贴合作者当时的心绪与流传本。"
+        },
+        {
+          "id": "b",
+          "label": "又是一年好春光",
+          "note": "欣然、明快",
+          "fragment": "又是一年春",
+          "tone": "bright",
+          "altNote": "这样写也成一首完整的诗，只是意境与名作略别。"
+        },
+        {
+          "id": "c",
+          "label": "该好好惜这春天",
+          "note": "珍重、温和",
+          "fragment": "应须惜此春",
+          "tone": "warm",
+          "altNote": "这样写也成一首完整的诗，只是意境与名作略别。"
+        }
+      ],
+      "lineCompare": {
+        "realLine": "花落知多少",
+        "whyOriginal": "这一句在声韵、意象或章法上更贴合作者当时的心绪与流传本。"
+      }
+    }
+  ],
+  "scoring": {
+    "mode": "resonance",
+    "bands": [
+      {
+        "min": 0,
+        "max": 1,
+        "text": "你写的是另一个春天的清晨，也自有情味，只是少了那点将醒未醒的慵懒。"
+      },
+      {
+        "min": 2,
+        "max": 3,
+        "text": "那份春日的闲适已经有了，再细听一听窗外的鸟叫——"
+      },
+      {
+        "min": 4,
+        "max": 4,
+        "text": "你与一千三百年前的孟浩然，在同一个春天的清晨，做着同一个慵懒的梦。"
+      }
+    ]
+  },
+  "reveal": {
+    "realText": "春眠不觉晓，处处闻啼鸟。夜来风雨声，花落知多少。",
+    "source": "孟浩然《春晓》",
+    "analysis": "全诗写的，不过是醒来一刹那的几个慵懒念头。它不写一个「喜」字，也不写一个「惜」字，全靠声音串起来——先听见满耳鸟鸣，再忽然想起夜里的风雨，最后那一句轻轻的「花落知多少」，淡淡的，却把惜春之情全收住了。最闲适的句子里，藏着最细的心思。",
+    "takeaway": "最好的春天，常常是在将醒未醒之间。"
+  },
+  "shareCard": {
+    "headline": "我的春晓 · 与孟浩然的春晓",
+    "footer": "最好的春天，常常是在将醒未醒之间。"
+  },
+  "tags": [
+    "唐诗",
+    "春天",
+    "闲适",
+    "入门"
+  ],
+  "facets": {
+    "dynasty": [
+      "唐"
+    ],
+    "author": [
+      "孟浩然"
+    ],
+    "form": [
+      "五言绝句"
+    ],
+    "theme": [
+      "春景",
+      "闲适"
+    ]
+  }
+}

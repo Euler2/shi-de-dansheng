@@ -1,0 +1,110 @@
+{
+  "id": "yuexia",
+  "type": "poem",
+  "title": "月下独酌",
+  "subtitle": "五言古诗 · 课标背诵",
+  "era": "唐",
+  "author": "李白",
+  "protagonist": "拟写《月下独酌》的诗人",
+  "difficulty": 1,
+  "intro": "课标篇目《月下独酌》（李白）。你从眼前景或心中情起笔——",
+  "guide": "你将一步步写下这一篇。选对更接近流传名篇。",
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "compose",
+      "narration": "你先定下起句——",
+      "prompt": "选起句方向",
+      "options": [
+        {
+          "id": "a",
+          "label": "花间一壶酒，独酌",
+          "fragment": "花间一壶酒，独酌无相亲。",
+          "isTarget": true,
+          "whyHere": "与课标通行本、声情相合。"
+        },
+        {
+          "id": "b",
+          "label": "另起意境",
+          "fragment": "花间……亲。",
+          "altNote": "意境可通，但与通行本不同。"
+        }
+      ],
+      "lineCompare": {
+        "realLine": "花间一壶酒，独酌无相亲。",
+        "whyOriginal": "起句定调，名篇多由此出。"
+      }
+    },
+    {
+      "id": "s2",
+      "kind": "compose",
+      "narration": "再写下一句——",
+      "prompt": "接下一句",
+      "options": [
+        {
+          "id": "a",
+          "label": "举杯邀明月，对影",
+          "fragment": "举杯邀明月，对影成三人。",
+          "isTarget": true,
+          "whyHere": "与上句相承，合于名篇。"
+        },
+        {
+          "id": "b",
+          "label": "换另一种收束",
+          "fragment": "举杯……",
+          "altNote": "可成句，但与名篇不同。"
+        }
+      ],
+      "lineCompare": {
+        "realLine": "举杯邀明月，对影成三人。",
+        "whyOriginal": "承转之间，见作者匠心。"
+      }
+    }
+  ],
+  "scoring": {
+    "mode": "resonance",
+    "bands": [
+      {
+        "min": 0,
+        "max": 1,
+        "text": "你的版本有情致，与名篇略异。"
+      },
+      {
+        "min": 2,
+        "max": 2,
+        "text": "你写成了通行名篇的关键句。"
+      }
+    ]
+  },
+  "reveal": {
+    "realText": "花间一壶酒，独酌无相亲。，举杯邀明月，对影成三人。。",
+    "source": "李白《月下独酌》",
+    "analysis": "《月下独酌》为课标篇目，五言古诗，主题：孤独、旷达。",
+    "takeaway": "独而不孤；邀月对影，是诗人之自解。"
+  },
+  "shareCard": {
+    "headline": "月下独酌 · 你拼出的版本",
+    "footer": "独而不孤；邀月对影，是诗人之自解。"
+  },
+  "tags": [
+    "唐",
+    "五言古诗",
+    "孤独",
+    "旷达"
+  ],
+  "facets": {
+    "dynasty": [
+      "唐"
+    ],
+    "author": [
+      "李白"
+    ],
+    "form": [
+      "五言古诗"
+    ],
+    "theme": [
+      "孤独",
+      "旷达"
+    ]
+  }
+}

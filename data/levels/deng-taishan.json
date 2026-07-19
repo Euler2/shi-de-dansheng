@@ -1,0 +1,94 @@
+{
+  "id": "deng-taishan",
+  "type": "history",
+  "title": "登泰山记 · 日出",
+  "subtitle": "苍山负雪，明烛天南",
+  "era": "清",
+  "author": "姚鼐",
+  "protagonist": "登泰山的姚鼐（你）",
+  "difficulty": 1,
+  "intro": "乾隆末年，你登泰山，记日观亭所见。",
+  "guide": "你将替文中人物做几个选择。选对更接近课文与史实。",
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "branch",
+      "narration": "「苍山负雪，明烛天南。」",
+      "prompt": "你——",
+      "options": [
+        {
+          "id": "a",
+          "label": "先写雪光，再写日出",
+          "isTarget": true,
+          "outcome": "你写景有序——「正赤如丹，下有红光动摇承之」。"
+        },
+        {
+          "id": "b",
+          "label": "只记路程，不写景",
+          "outcome": "你止于程——桐城记体之要在景。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "kind": "branch",
+      "narration": "「极天云一线异色，须臾成五采。」",
+      "prompt": "你——",
+      "options": [
+        {
+          "id": "a",
+          "label": "以简笔写日出之奇",
+          "isTarget": true,
+          "outcome": "你简淡而有神韵——姚鼐法。"
+        },
+        {
+          "id": "b",
+          "label": "以华丽辞藻铺排",
+          "outcome": "你过饰——「简」乃桐城所尚。"
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "mode": "fidelity",
+    "bands": [
+      {
+        "min": 0,
+        "max": 1,
+        "text": "你的选择与课文略有出入，但故事仍说得通。"
+      },
+      {
+        "min": 2,
+        "max": 2,
+        "text": "你与课文、史意相合。"
+      }
+    ]
+  },
+  "reveal": {
+    "realText": "苍山负雪，明烛天南……极天云一线异色，须臾成五采。",
+    "source": "姚鼐《登泰山记》",
+    "analysis": "桐城记体，简淡写泰山雪夜与日出。",
+    "takeaway": "写景贵简而有神；亲历之景，不必繁辞。"
+  },
+  "shareCard": {
+    "headline": "登泰山记 · 日出 · 你走过了这一程",
+    "footer": "写景贵简而有神；亲历之景，不必繁辞。"
+  },
+  "tags": [
+    "课标",
+    "清"
+  ],
+  "facets": {
+    "dynasty": [
+      "清"
+    ],
+    "storyKind": [
+      "游记",
+      "写景"
+    ],
+    "theme": [
+      "山水",
+      "简淡"
+    ]
+  }
+}

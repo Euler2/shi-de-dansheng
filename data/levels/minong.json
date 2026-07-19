@@ -1,0 +1,99 @@
+{
+  "id": "minong",
+  "type": "poem",
+  "title": "悯农",
+  "subtitle": "两行诗，写尽盘中餐的来处",
+  "era": "唐",
+  "author": "李绅",
+  "protagonist": "田间劳作的农夫",
+  "difficulty": 1,
+  "intro": "烈日当空，你站在田埂上，看农人弯腰收割——",
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "compose",
+      "narration": "你想写眼前景象，先点出时节与劳作——",
+      "prompt": "起句写什么",
+      "options": [
+        {
+          "id": "a",
+          "label": "烈日当空，农夫犹耕",
+          "fragment": "锄禾日当午",
+          "isTarget": true,
+          "whyHere": "「锄禾」点农事，「日当午」写酷热，为下句「汗」蓄势。"
+        },
+        {
+          "id": "b",
+          "label": "清晨薄雾，禾苗青青",
+          "fragment": "晨雾禾苗青",
+          "altNote": "清景可写，却少了正午酷热与辛劳的对照。"
+        },
+        {
+          "id": "c",
+          "label": "秋风起兮，稻谷金黄",
+          "fragment": "秋风稻谷黄",
+          "altNote": "秋收亦可，与本诗写夏日田间不符。"
+        }
+      ],
+      "lineCompare": {
+        "realLine": "锄禾日当午",
+        "whyOriginal": "正午最热时仍在劳作，最能见辛苦。"
+      }
+    },
+    {
+      "id": "s2",
+      "kind": "compose",
+      "narration": "汗珠滚落，你想把辛劳写进第二句——",
+      "prompt": "如何写汗与辛劳",
+      "options": [
+        {
+          "id": "a",
+          "label": "汗滴入土，不知疲倦",
+          "fragment": "汗滴禾下土",
+          "isTarget": true,
+          "whyHere": "「汗滴禾下土」由人及禾，为末句「粒粒皆辛苦」作铺垫。"
+        },
+        {
+          "id": "b",
+          "label": "衣衫尽湿，仍不停歇",
+          "fragment": "衣湿犹未歇",
+          "altNote": "亦写辛苦，但不如「汗滴禾下土」与粮食联系紧。"
+        },
+        {
+          "id": "c",
+          "label": "仰天长叹，力竭声嘶",
+          "fragment": "仰天力已竭",
+          "altNote": "叹苦有余，画面不如滴汗具体。"
+        }
+      ],
+      "lineCompare": {
+        "realLine": "汗滴禾下土",
+        "whyOriginal": "汗与土、禾相连，直指粮食来之不易。"
+      }
+    }
+  ],
+  "scoring": {
+    "mode": "resonance",
+    "bands": [
+      { "min": 2, "max": 2, "text": "与原作同工——盘中每一粒，都记着日午与汗滴。" },
+      { "min": 1, "max": 1, "text": "情意相近，略换章法。" },
+      { "min": 0, "max": 0, "text": "另辟蹊径，亦自有感。" }
+    ]
+  },
+  "reveal": {
+    "realText": "锄禾日当午，汗滴禾下土。谁知盘中餐，粒粒皆辛苦。",
+    "source": "李绅《悯农二首》其二",
+    "analysis": "前两句白描田间酷热与劳作，后两句由景入理，从「禾下土」说到「盘中餐」，是小学课标名篇。",
+    "takeaway": "珍惜粮食，是读懂这首诗最朴素的行动。"
+  },
+  "shareCard": {
+    "headline": "粒粒皆辛苦",
+    "footer": "诗的诞生"
+  },
+  "facets": {
+    "dynasty": ["唐"],
+    "author": ["李绅"],
+    "form": ["五言绝句"],
+    "theme": ["农事", "悯农"]
+  }
+}

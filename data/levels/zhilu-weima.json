@@ -1,0 +1,94 @@
+{
+  "id": "zhilu-weima",
+  "type": "history",
+  "title": "指鹿为马 · 赵高",
+  "subtitle": "鹿还是马——你怎么答",
+  "era": "秦",
+  "author": "《史记》",
+  "protagonist": "秦廷上的你",
+  "difficulty": 1,
+  "intro": "赵高持鹿献于二世，曰马。群臣或默，或附。",
+  "guide": "你将替文中人物做几个选择。选对更接近课文与史实。",
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "branch",
+      "narration": "赵高指鹿为马，问左右。",
+      "prompt": "换作你——",
+      "options": [
+        {
+          "id": "a",
+          "label": "据实曰鹿，不畏权势",
+          "isTarget": true,
+          "outcome": "你曰鹿——或遭祸，然「指鹿为马」之奸便明。"
+        },
+        {
+          "id": "b",
+          "label": "附势曰马，求自保",
+          "outcome": "你曰马——奸臣得志，「鹿马」之辨便亡。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "kind": "branch",
+      "narration": "「欲以乱天下，而畏群臣之强，故先设验以胁之。」",
+      "prompt": "你理解此术——",
+      "options": [
+        {
+          "id": "a",
+          "label": "知以荒诞试探，胁众从奸",
+          "isTarget": true,
+          "outcome": "你识其术——「指鹿为马」在立威，不在鹿马。"
+        },
+        {
+          "id": "b",
+          "label": "以为只是玩笑",
+          "outcome": "你轻之——秦乱由此渐深。"
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "mode": "fidelity",
+    "bands": [
+      {
+        "min": 0,
+        "max": 1,
+        "text": "你的选择与课文略有出入，但故事仍说得通。"
+      },
+      {
+        "min": 2,
+        "max": 2,
+        "text": "你与课文、史意相合。"
+      }
+    ]
+  },
+  "reveal": {
+    "realText": "赵高欲为乱……持鹿献于二世，曰：「马也。」……",
+    "source": "《史记·秦始皇本纪》",
+    "analysis": "以荒诞事试探群臣，胁从立威，史论奸臣常用之喻。",
+    "takeaway": "指鹿为马，在立威胁众；识奸在胆，不在附势。"
+  },
+  "shareCard": {
+    "headline": "指鹿为马 · 赵高 · 你走过了这一程",
+    "footer": "指鹿为马，在立威胁众；识奸在胆，不在附势。"
+  },
+  "tags": [
+    "课标",
+    "秦"
+  ],
+  "facets": {
+    "dynasty": [
+      "秦"
+    ],
+    "storyKind": [
+      "史传",
+      "权术"
+    ],
+    "theme": [
+      "奸佞",
+      "抉择"
+    ]
+  }
+}

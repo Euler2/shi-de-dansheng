@@ -1,0 +1,94 @@
+{
+  "id": "lingguan-xu",
+  "type": "history",
+  "title": "伶官传序 · 逸豫",
+  "subtitle": "忧劳可以兴国，逸豫可以亡身",
+  "era": "宋",
+  "author": "欧阳修",
+  "protagonist": "序伶官传的欧阳修（你）",
+  "difficulty": 1,
+  "intro": "你要序庄宗成败，以戒君主。",
+  "guide": "你将替文中人物做几个选择。选对更接近课文与史实。",
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "branch",
+      "narration": "「忧劳可以兴国，逸豫可以亡身。」",
+      "prompt": "你——",
+      "options": [
+        {
+          "id": "a",
+          "label": "以庄宗三矢、伶人乱政为证",
+          "isTarget": true,
+          "outcome": "你以庄宗证「逸豫亡身」——序旨在此。"
+        },
+        {
+          "id": "b",
+          "label": "只写伶人技艺，不论国运",
+          "outcome": "你止于技艺——「传序」之戒便无。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "kind": "branch",
+      "narration": "「夫祸患常积于忽微，而智勇多困于所溺。」",
+      "prompt": "结句你——",
+      "options": [
+        {
+          "id": "a",
+          "label": "点「所溺」之戒",
+          "isTarget": true,
+          "outcome": "你点溺——庄宗溺于伶，智勇皆困。"
+        },
+        {
+          "id": "b",
+          "label": "称庄宗英雄无敌",
+          "outcome": "你只赞勇——「忽微」之戒没了。"
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "mode": "fidelity",
+    "bands": [
+      {
+        "min": 0,
+        "max": 1,
+        "text": "你的选择与课文略有出入，但故事仍说得通。"
+      },
+      {
+        "min": 2,
+        "max": 2,
+        "text": "你与课文、史意相合。"
+      }
+    ]
+  },
+  "reveal": {
+    "realText": "忧劳可以兴国，逸豫可以亡身……夫祸患常积于忽微，而智勇多困于所溺。",
+    "source": "欧阳修《五代史伶官传序》",
+    "analysis": "史传序文，以庄宗盛衰证「逸豫亡身」「所溺之困」。",
+    "takeaway": "忧劳兴国，逸豫亡身；智勇可困于所溺。"
+  },
+  "shareCard": {
+    "headline": "伶官传序 · 逸豫 · 你走过了这一程",
+    "footer": "忧劳兴国，逸豫亡身；智勇可困于所溺。"
+  },
+  "tags": [
+    "课标",
+    "宋"
+  ],
+  "facets": {
+    "dynasty": [
+      "宋"
+    ],
+    "storyKind": [
+      "序",
+      "史论"
+    ],
+    "theme": [
+      "治国",
+      "戒逸"
+    ]
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "id": "chibi-fu",
+  "type": "history",
+  "title": "赤壁夜游 · 赤壁赋",
+  "subtitle": "寄蜉蝣于天地，你如何选择主客之辩",
+  "era": "宋",
+  "author": "苏轼",
+  "protagonist": "泛舟赤壁的苏轼（你）",
+  "difficulty": 1,
+  "intro": "壬戌之秋，你与客泛舟赤壁。",
+  "guide": "你将替文中人物做几个选择。选对更接近课文与史实。",
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "branch",
+      "narration": "月出于东山之上，徘徊于斗牛之间。",
+      "prompt": "你——",
+      "options": [
+        {
+          "id": "a",
+          "label": "举酒属客，扣舷而歌",
+          "isTarget": true,
+          "outcome": "你以歌起兴——「白露横江，水光接天」。"
+        },
+        {
+          "id": "b",
+          "label": "只谈战事，不论江月",
+          "outcome": "你直论战——少了赋体写景之骨。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "kind": "branch",
+      "narration": "客问变与不变，你答「自其变者而观之……」",
+      "prompt": "你——",
+      "options": [
+        {
+          "id": "a",
+          "label": "以「物与我皆无尽」化解客悲",
+          "isTarget": true,
+          "outcome": "你以哲理收束——变与不变，物我无尽。"
+        },
+        {
+          "id": "b",
+          "label": "承认人生虚无，不必再辩",
+          "outcome": "你止悲于虚——少了「共适」之转。"
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "mode": "fidelity",
+    "bands": [
+      {
+        "min": 0,
+        "max": 1,
+        "text": "你的选择与课文略有出入，但故事仍说得通。"
+      },
+      {
+        "min": 2,
+        "max": 2,
+        "text": "你与课文、史意相合。"
+      }
+    ]
+  },
+  "reveal": {
+    "realText": "壬戌之秋，七月既望……是造物者之无尽藏也，而吾与子之所共适。",
+    "source": "苏轼《赤壁赋》",
+    "analysis": "赋体主客问答，写景→怀古→说理，层层转悲为达。",
+    "takeaway": "变与不变，物我无尽；悲可化达，在理在酒。"
+  },
+  "shareCard": {
+    "headline": "赤壁夜游 · 赤壁赋 · 你走过了这一程",
+    "footer": "变与不变，物我无尽；悲可化达，在理在酒。"
+  },
+  "tags": [
+    "课标",
+    "宋"
+  ],
+  "facets": {
+    "dynasty": [
+      "宋"
+    ],
+    "storyKind": [
+      "赋",
+      "哲理"
+    ],
+    "theme": [
+      "旷达",
+      "游仙"
+    ]
+  }
+}

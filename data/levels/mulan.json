@@ -1,0 +1,119 @@
+{
+  "id": "mulan",
+  "type": "poem",
+  "title": "木兰辞",
+  "subtitle": "巾帼 · 课标背诵篇",
+  "era": "北朝",
+  "author": "《乐府诗集》",
+  "protagonist": "面对景与情，拟写《木兰辞》的诗人",
+  "difficulty": 1,
+  "intro": "课标篇目《木兰辞》（《乐府诗集》）。你从眼前景或心中情起笔——",
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "compose",
+      "narration": "你想写《木兰辞》，先定下起句——",
+      "prompt": "起句怎么写",
+      "options": [
+        {
+          "id": "a",
+          "label": "唧唧复唧唧，木兰当户织。",
+          "fragment": "唧唧复唧唧，木兰当户织。",
+          "isTarget": true,
+          "whyHere": "与流传本起句一致，便于与后文章法相承。"
+        },
+        {
+          "id": "b",
+          "label": "唧唧复唧唧，…兰当户织。",
+          "fragment": "唧唧复唧唧，…兰当户织。",
+          "altNote": "意境可通，但与名篇起句不同，读感略别。"
+        },
+        {
+          "id": "c",
+          "label": "且向唧唧复唧外",
+          "fragment": "且向唧唧复唧外",
+          "altNote": "另起炉灶，亦成一句，只是非此作经典开篇。"
+        }
+      ],
+      "lineCompare": {
+        "realLine": "唧唧复唧唧，木兰当户织。",
+        "whyOriginal": "课标与通行本以此起句开篇。"
+      }
+    },
+    {
+      "id": "s2",
+      "kind": "compose",
+      "narration": "承上句，接着写——",
+      "prompt": "第二句",
+      "options": [
+        {
+          "id": "a",
+          "label": "不闻机杼声，唯闻女叹息。",
+          "fragment": "不闻机杼声，唯闻女叹息。",
+          "isTarget": true,
+          "whyHere": "承接起句，是通行本第二句。"
+        },
+        {
+          "id": "b",
+          "label": "不闻机杼声，…闻女叹息。",
+          "fragment": "不闻机杼声，…闻女叹息。",
+          "altNote": "可成对句，但与原作次句不同。"
+        },
+        {
+          "id": "c",
+          "label": "换一意境收束",
+          "fragment": "且向不闻机杼外",
+          "altNote": "另写收束，全篇风味随之而变。"
+        }
+      ],
+      "lineCompare": {
+        "realLine": "不闻机杼声，唯闻女叹息。",
+        "whyOriginal": "名篇次句，与起句相配。"
+      }
+    }
+  ],
+  "scoring": {
+    "mode": "resonance",
+    "bands": [
+      {
+        "min": 2,
+        "max": 2,
+        "text": "与原作同工——名篇筋骨已在。"
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "text": "一句相合，一句别创，亦有趣味。"
+      },
+      {
+        "min": 0,
+        "max": 0,
+        "text": "另写一路，对照真迹当别有会心。"
+      }
+    ]
+  },
+  "reveal": {
+    "realText": "唧唧复唧唧，木兰当户织。不闻机杼声，唯闻女叹息。",
+    "source": "《乐府诗集》《木兰辞》",
+    "analysis": "义务教育/高中课标推荐背诵篇目。全诗意境可从此两句窥见一斑。",
+    "takeaway": "熟读后，不妨闭目击节，体会为何千年流传。"
+  },
+  "shareCard": {
+    "headline": "木兰辞",
+    "footer": "诗的诞生"
+  },
+  "facets": {
+    "dynasty": [
+      "北朝"
+    ],
+    "author": [
+      "乐府诗集"
+    ],
+    "form": [
+      "乐府"
+    ],
+    "theme": [
+      "巾帼"
+    ]
+  }
+}

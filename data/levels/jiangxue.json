@@ -1,0 +1,213 @@
+{
+  "id": "jiangxue",
+  "type": "poem",
+  "title": "江雪",
+  "subtitle": "把整个世界写空，只为衬出一个人的孤傲",
+  "era": "唐",
+  "author": "柳宗元",
+  "protagonist": "贬谪南荒、独对寒江的迁客",
+  "difficulty": 1,
+  "intro": "你被贬到永州，身处一场大雪。天地茫茫，万籁俱寂。你提笔，想写下眼前这片白。",
+  "guide": "你将一笔笔写下这片雪景。没有标准答案，选你心里那个就好。",
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "compose",
+      "narration": "放眼千山——",
+      "prompt": "选第一句",
+      "options": [
+        {
+          "id": "a",
+          "label": "飞鸟绝迹",
+          "note": "万物屏息",
+          "fragment": "千山鸟飞绝",
+          "tone": "cold",
+          "isTarget": true,
+          "whyHere": "这一句在声韵、意象或章法上更贴合作者当时的心绪与流传本。"
+        },
+        {
+          "id": "b",
+          "label": "云雾深锁",
+          "note": "迷蒙",
+          "fragment": "千山云雾锁",
+          "tone": "neutral",
+          "altNote": "这样写也成一首完整的诗，只是意境与名作略别。"
+        },
+        {
+          "id": "c",
+          "label": "暮雪层积",
+          "note": "厚重",
+          "fragment": "千山暮雪积",
+          "tone": "cold",
+          "altNote": "这样写也成一首完整的诗，只是意境与名作略别。"
+        }
+      ],
+      "lineCompare": {
+        "realLine": "千山鸟飞绝",
+        "whyOriginal": "这一句在声韵、意象或章法上更贴合作者当时的心绪与流传本。"
+      }
+    },
+    {
+      "id": "s2",
+      "kind": "compose",
+      "narration": "再看万径——",
+      "prompt": "选第二句",
+      "options": [
+        {
+          "id": "a",
+          "label": "人踪灭绝",
+          "note": "空无一人",
+          "fragment": "万径人踪灭",
+          "tone": "cold",
+          "isTarget": true,
+          "whyHere": "这一句在声韵、意象或章法上更贴合作者当时的心绪与流传本。"
+        },
+        {
+          "id": "b",
+          "label": "风雪掩埋",
+          "note": "苍茫",
+          "fragment": "万径风雪埋",
+          "tone": "cold",
+          "altNote": "这样写也成一首完整的诗，只是意境与名作略别。"
+        },
+        {
+          "id": "c",
+          "label": "荒草丛生",
+          "note": "荒芜",
+          "fragment": "万径荒草齐",
+          "tone": "bleak",
+          "altNote": "这样写也成一首完整的诗，只是意境与名作略别。"
+        }
+      ],
+      "lineCompare": {
+        "realLine": "万径人踪灭",
+        "whyOriginal": "这一句在声韵、意象或章法上更贴合作者当时的心绪与流传本。"
+      }
+    },
+    {
+      "id": "s3",
+      "kind": "compose",
+      "narration": "这死寂里，江上唯有——",
+      "prompt": "选第三句",
+      "options": [
+        {
+          "id": "a",
+          "label": "一叶孤舟，一蓑笠翁",
+          "note": "孤而不孤",
+          "fragment": "孤舟蓑笠翁",
+          "tone": "cold",
+          "isTarget": true,
+          "whyHere": "这一句在声韵、意象或章法上更贴合作者当时的心绪与流传本。"
+        },
+        {
+          "id": "b",
+          "label": "一点渔火明灭",
+          "note": "微暖",
+          "fragment": "渔火一点明",
+          "tone": "warm",
+          "altNote": "这样写也成一首完整的诗，只是意境与名作略别。"
+        },
+        {
+          "id": "c",
+          "label": "三两声寒鸦",
+          "note": "凄清",
+          "fragment": "寒鸦三两声",
+          "tone": "bleak",
+          "altNote": "这样写也成一首完整的诗，只是意境与名作略别。"
+        }
+      ],
+      "lineCompare": {
+        "realLine": "孤舟蓑笠翁",
+        "whyOriginal": "这一句在声韵、意象或章法上更贴合作者当时的心绪与流传本。"
+      }
+    },
+    {
+      "id": "s4",
+      "kind": "compose",
+      "narration": "那老翁正在——",
+      "prompt": "选收尾",
+      "options": [
+        {
+          "id": "a",
+          "label": "独钓一江寒雪",
+          "note": "孤绝、倔强",
+          "fragment": "独钓寒江雪",
+          "tone": "cold",
+          "isTarget": true,
+          "whyHere": "这一句在声韵、意象或章法上更贴合作者当时的心绪与流传本。"
+        },
+        {
+          "id": "b",
+          "label": "独酌对着孤灯",
+          "note": "自遣",
+          "fragment": "独酌对孤灯",
+          "tone": "bleak",
+          "altNote": "这样写也成一首完整的诗，只是意境与名作略别。"
+        },
+        {
+          "id": "c",
+          "label": "独卧听着风雪",
+          "note": "认命",
+          "fragment": "独卧听风雪",
+          "tone": "bleak",
+          "altNote": "这样写也成一首完整的诗，只是意境与名作略别。"
+        }
+      ],
+      "lineCompare": {
+        "realLine": "独钓寒江雪",
+        "whyOriginal": "这一句在声韵、意象或章法上更贴合作者当时的心绪与流传本。"
+      }
+    }
+  ],
+  "scoring": {
+    "mode": "resonance",
+    "bands": [
+      {
+        "min": 0,
+        "max": 1,
+        "text": "你写出了另一场雪，也有意境，只是少了那份孤舟独钓的倔强。"
+      },
+      {
+        "min": 2,
+        "max": 3,
+        "text": "那份孤寂已经出来了，再看一眼江心那叶小舟——"
+      },
+      {
+        "min": 4,
+        "max": 4,
+        "text": "你与柳宗元，独对着同一江寒雪。"
+      }
+    ]
+  },
+  "reveal": {
+    "realText": "千山鸟飞绝，万径人踪灭。孤舟蓑笠翁，独钓寒江雪。",
+    "source": "柳宗元《江雪》",
+    "analysis": "前两句先把世界写到「绝」与「灭」——飞鸟、人踪，一切生灵都没了，天地空成一片死寂。偏在这片空里，留下一个孤舟独钓的老翁。越是大背景的空，越衬出那一点「独」的倔强。再看四句的首字：千、万、孤、独——连起来正是「千万孤独」。这是被贬之人，写给自己的孤傲。",
+    "takeaway": "天地越是空寂，那一点不肯低头，越显得分明。"
+  },
+  "shareCard": {
+    "headline": "我的江雪 · 与柳宗元的江雪",
+    "footer": "天地越是空寂，那一点不肯低头，越显得分明。"
+  },
+  "tags": [
+    "唐诗",
+    "贬谪",
+    "孤绝",
+    "藏头"
+  ],
+  "facets": {
+    "dynasty": [
+      "唐"
+    ],
+    "author": [
+      "柳宗元"
+    ],
+    "form": [
+      "五言绝句"
+    ],
+    "theme": [
+      "孤寂",
+      "山水"
+    ]
+  }
+}

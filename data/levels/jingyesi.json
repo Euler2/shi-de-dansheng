@@ -1,0 +1,213 @@
+{
+  "id": "jingyesi",
+  "type": "poem",
+  "title": "静夜思",
+  "subtitle": "最浅白的字，怎么写出最深的乡愁",
+  "era": "唐",
+  "author": "李白",
+  "protagonist": "客居异乡、夜不能寐的旅人",
+  "difficulty": 1,
+  "intro": "深秋的夜，你客居他乡，独宿空馆。夜深难眠，你翻了个身，睁开眼——",
+  "guide": "你将一步步写下这一夜的心绪。没有标准答案，选你心里那个就好。",
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "compose",
+      "narration": "你睁眼，看见床前——",
+      "prompt": "选眼前所见",
+      "options": [
+        {
+          "id": "a",
+          "label": "一片清冷的月光",
+          "note": "明净、清寒",
+          "fragment": "床前明月光",
+          "tone": "cold",
+          "isTarget": true,
+          "whyHere": "月光清冷、普及，不挑贫富，最宜写客中清夜。"
+        },
+        {
+          "id": "b",
+          "label": "一豆将尽的残烛",
+          "note": "昏黄、孤寂",
+          "fragment": "床前残烛明",
+          "tone": "bleak",
+          "altNote": "残烛虽可写夜，却少了月与故乡的经典联想。"
+        },
+        {
+          "id": "c",
+          "label": "半窗摇动的疏影",
+          "note": "幽微、恍惚",
+          "fragment": "床前疏影斜",
+          "tone": "neutral",
+          "altNote": "疏影太幽，不如月光直陈来得明白。"
+        }
+      ],
+      "lineCompare": {
+        "realLine": "床前明月光",
+        "whyOriginal": "这一句在声韵、意象或章法上更贴合作者当时的心绪与流传本。"
+      }
+    },
+    {
+      "id": "s2",
+      "kind": "compose",
+      "narration": "那清冷的光铺在地上，恍惚间像——",
+      "prompt": "选一个比喻",
+      "options": [
+        {
+          "id": "a",
+          "label": "地上落了层霜",
+          "note": "清寒入骨",
+          "fragment": "疑是地上霜",
+          "tone": "cold",
+          "isTarget": true,
+          "whyHere": "「霜」字寒而洁，把月光写得可触，且暗合秋夜。"
+        },
+        {
+          "id": "b",
+          "label": "满堂铺了层雪",
+          "note": "素白、清冷",
+          "fragment": "疑是雪满堂",
+          "tone": "cold",
+          "altNote": "雪意过重，与后文举头望月、思乡的节奏略滞。"
+        },
+        {
+          "id": "c",
+          "label": "一汪生凉的秋水",
+          "note": "清浅、微凉",
+          "fragment": "疑是水生凉",
+          "tone": "neutral",
+          "altNote": "水凉之喻稍远，不如霜贴近地面所见。"
+        }
+      ],
+      "lineCompare": {
+        "realLine": "疑是地上霜",
+        "whyOriginal": "这一句在声韵、意象或章法上更贴合作者当时的心绪与流传本。"
+      }
+    },
+    {
+      "id": "s3",
+      "kind": "compose",
+      "narration": "你缓缓抬起头——",
+      "prompt": "你望向何处",
+      "options": [
+        {
+          "id": "a",
+          "label": "那一轮明月",
+          "note": "孤悬、皎洁",
+          "fragment": "举头望明月",
+          "tone": "cold",
+          "isTarget": true,
+          "whyHere": "明月是此诗的枢纽，后文低头思故乡皆由此生发。"
+        },
+        {
+          "id": "b",
+          "label": "沉沉的夜色",
+          "note": "幽深、空茫",
+          "fragment": "举头望夜色",
+          "tone": "bleak",
+          "altNote": "夜色太泛，少了那一点可凝视的寄托。"
+        },
+        {
+          "id": "c",
+          "label": "茫茫的天际",
+          "note": "辽远、苍凉",
+          "fragment": "举头望天际",
+          "tone": "neutral",
+          "altNote": "天际辽远，却不如一轮明月更能勾连故乡。"
+        }
+      ],
+      "lineCompare": {
+        "realLine": "举头望明月",
+        "whyOriginal": "这一句在声韵、意象或章法上更贴合作者当时的心绪与流传本。"
+      }
+    },
+    {
+      "id": "s4",
+      "kind": "compose",
+      "narration": "又缓缓低下头——",
+      "prompt": "此刻你心里",
+      "options": [
+        {
+          "id": "a",
+          "label": "想起了故乡",
+          "note": "归思涌上",
+          "fragment": "低头思故乡",
+          "tone": "cold",
+          "isTarget": true,
+          "whyHere": "「故乡」二字直抵人心，千古共鸣由此而来。"
+        },
+        {
+          "id": "b",
+          "label": "叹一声飘零",
+          "note": "自伤身世",
+          "fragment": "低头叹飘零",
+          "tone": "bleak",
+          "altNote": "叹飘零是愁，却不如故乡二字宽而深。"
+        },
+        {
+          "id": "c",
+          "label": "默数归期还有多远",
+          "note": "归期渺渺",
+          "fragment": "低头数归期",
+          "tone": "neutral",
+          "altNote": "数归期是事，不如思乡是情，更耐回味。"
+        }
+      ],
+      "lineCompare": {
+        "realLine": "低头思故乡",
+        "whyOriginal": "这一句在声韵、意象或章法上更贴合作者当时的心绪与流传本。"
+      }
+    }
+  ],
+  "scoring": {
+    "mode": "resonance",
+    "bands": [
+      {
+        "min": 0,
+        "max": 1,
+        "text": "你写的是另一种夜，也别有况味，只是少了那份月下的乡愁。"
+      },
+      {
+        "min": 2,
+        "max": 3,
+        "text": "那点乡思已经浮上来了，再看一眼月亮——"
+      },
+      {
+        "min": 4,
+        "max": 4,
+        "text": "你与一千三百年前的李白，望着同一轮月，想起了同一个家。"
+      }
+    ]
+  },
+  "reveal": {
+    "realText": "床前明月光，疑是地上霜。举头望明月，低头思故乡。",
+    "source": "李白《静夜思》（通行本）",
+    "analysis": "全诗二十个字，没有一个难字、没有一个生僻典故，明白得像随口说出。可正是这份浅白，让它一千多年来人人能懂、人人能共鸣。最妙是「举头」与「低头」——一仰一俯两个小动作，就把天上的月和心里的故乡，悄悄连在了一起。",
+    "takeaway": "最深的乡愁，往往只用最浅白的话。"
+  },
+  "shareCard": {
+    "headline": "我的静夜思 · 与李白的静夜思",
+    "footer": "最深的乡愁，往往只用最浅白的话。"
+  },
+  "tags": [
+    "唐诗",
+    "乡愁",
+    "意象",
+    "入门"
+  ],
+  "facets": {
+    "dynasty": [
+      "唐"
+    ],
+    "author": [
+      "李白"
+    ],
+    "form": [
+      "五言绝句"
+    ],
+    "theme": [
+      "思乡",
+      "月夜"
+    ]
+  }
+}

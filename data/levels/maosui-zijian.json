@@ -1,0 +1,94 @@
+{
+  "id": "maosui-zijian",
+  "type": "history",
+  "title": "毛遂自荐 · 合纵",
+  "subtitle": "锥处囊中——你出不出",
+  "era": "战国",
+  "author": "《史记》",
+  "protagonist": "门客毛遂",
+  "difficulty": 1,
+  "intro": "平原君将赴楚合纵，选门客二十。毛遂自荐，愿处囊中。",
+  "guide": "你将替文中人物做几个选择。选对更接近课文与史实。",
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "branch",
+      "narration": "「毛遂自荐于平原君曰：遂闻君将合从于楚……愿处囊中。」",
+      "prompt": "你——",
+      "options": [
+        {
+          "id": "a",
+          "label": "自荐随行，愿露颖于外",
+          "isTarget": true,
+          "outcome": "你出囊——「非有处囊中耳，脱颖而出」。"
+        },
+        {
+          "id": "b",
+          "label": "沉默不出，怕遭讥笑",
+          "outcome": "你不出——「锥处囊中，颖未脱」。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "kind": "branch",
+      "narration": "毛遂按剑历阶，责楚王歃盟。",
+      "prompt": "换作你——",
+      "options": [
+        {
+          "id": "a",
+          "label": "据理力争，促楚赵合纵",
+          "isTarget": true,
+          "outcome": "你责楚王——合纵成，毛遂以口胜。"
+        },
+        {
+          "id": "b",
+          "label": "见楚王怒则退",
+          "outcome": "你退——合纵之局便散。"
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "mode": "fidelity",
+    "bands": [
+      {
+        "min": 0,
+        "max": 1,
+        "text": "你的选择与课文略有出入，但故事仍说得通。"
+      },
+      {
+        "min": 2,
+        "max": 2,
+        "text": "你与课文、史意相合。"
+      }
+    ]
+  },
+  "reveal": {
+    "realText": "毛遂自荐……按剑历阶，责楚王……",
+    "source": "《史记·平原君虞卿列传》",
+    "analysis": "自荐与责楚两层，见胆识与辞令。",
+    "takeaway": "处囊当出；事急敢任，不在人数多寡。"
+  },
+  "shareCard": {
+    "headline": "毛遂自荐 · 合纵 · 你走过了这一程",
+    "footer": "处囊当出；事急敢任，不在人数多寡。"
+  },
+  "tags": [
+    "课标",
+    "战国"
+  ],
+  "facets": {
+    "dynasty": [
+      "战国"
+    ],
+    "storyKind": [
+      "史传",
+      "胆识"
+    ],
+    "theme": [
+      "自荐",
+      "合纵"
+    ]
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "id": "chengmen-lixue",
+  "type": "history",
+  "title": "程门立雪 · 尊师",
+  "subtitle": "杨时拜程颐——你等不等",
+  "era": "宋",
+  "author": "《宋史》",
+  "protagonist": "求学的杨时",
+  "difficulty": 1,
+  "intro": "杨时、游酢谒程颐，颐瞑坐，二人立门外。",
+  "guide": "你将替文中人物做几个选择。选对更接近课文与史实。",
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "branch",
+      "narration": "「颐既觉，则门外雪深一尺矣。」",
+      "prompt": "换作你——",
+      "options": [
+        {
+          "id": "a",
+          "label": "不扰师眠，静立至雪深",
+          "isTarget": true,
+          "outcome": "你立雪等候——「程门立雪」，敬师如此。"
+        },
+        {
+          "id": "b",
+          "label": "见师睡则改日再来",
+          "outcome": "你改日——诚心稍逊，典故便无。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "kind": "branch",
+      "narration": "程颐出，见二人，「愈益尊敬。」",
+      "prompt": "换作你——",
+      "options": [
+        {
+          "id": "a",
+          "label": "以诚心求教，不较一时之劳",
+          "isTarget": true,
+          "outcome": "你敬师重道——学在诚，不在速。"
+        },
+        {
+          "id": "b",
+          "label": "以为久等吃亏，不必尊师",
+          "outcome": "你轻尊师——「立雪」之旨便失。"
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "mode": "fidelity",
+    "bands": [
+      {
+        "min": 0,
+        "max": 1,
+        "text": "你的选择与课文略有出入，但故事仍说得通。"
+      },
+      {
+        "min": 2,
+        "max": 2,
+        "text": "你与课文、史意相合。"
+      }
+    ]
+  },
+  "reveal": {
+    "realText": "杨时、游酢尝从学于程颐……门外雪深一尺矣。",
+    "source": "《宋史·杨时传》",
+    "analysis": "尊师典故，重在诚心静候，非炫苦。",
+    "takeaway": "敬师在诚，不在喧哗；立雪候门，学道之基。"
+  },
+  "shareCard": {
+    "headline": "程门立雪 · 尊师 · 你走过了这一程",
+    "footer": "敬师在诚，不在喧哗；立雪候门，学道之基。"
+  },
+  "tags": [
+    "课标",
+    "宋"
+  ],
+  "facets": {
+    "dynasty": [
+      "宋"
+    ],
+    "storyKind": [
+      "轶事",
+      "尊师"
+    ],
+    "theme": [
+      "为学",
+      "尊师"
+    ]
+  }
+}

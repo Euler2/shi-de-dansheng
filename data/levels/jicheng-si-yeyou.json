@@ -1,0 +1,94 @@
+{
+  "id": "jicheng-si-yeyou",
+  "type": "history",
+  "title": "承天寺夜游 · 闲人",
+  "subtitle": "何夜无月？何处无竹柏？",
+  "era": "宋",
+  "author": "苏轼",
+  "protagonist": "贬黄州、夜游的苏轼（你）",
+  "difficulty": 1,
+  "intro": "元丰六年秋，你与张怀民夜游承天寺。",
+  "guide": "你将替文中人物做几个选择。选对更接近课文与史实。",
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "branch",
+      "narration": "庭下如积水空明，水中藻荇交横，盖竹柏影也。",
+      "prompt": "你——",
+      "options": [
+        {
+          "id": "a",
+          "label": "以「闲人」自况，与友同赏",
+          "isTarget": true,
+          "outcome": "你知此乐需「闲人」——贬中有悟。"
+        },
+        {
+          "id": "b",
+          "label": "只叹命薄，无心看月",
+          "outcome": "你只顾怨命——少了「亦未寝」的雅兴。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "kind": "branch",
+      "narration": "何夜无月？何处无竹柏？但少闲人如吾两人者耳。",
+      "prompt": "结句你——",
+      "options": [
+        {
+          "id": "a",
+          "label": "以反问收束，点「闲人」",
+          "isTarget": true,
+          "outcome": "你以反问作结，闲者之稀，尽在言外。"
+        },
+        {
+          "id": "b",
+          "label": "直写明日上表求迁",
+          "outcome": "你急求迁官——与夜游之旷达不合。"
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "mode": "fidelity",
+    "bands": [
+      {
+        "min": 0,
+        "max": 1,
+        "text": "你的选择与课文略有出入，但故事仍说得通。"
+      },
+      {
+        "min": 2,
+        "max": 2,
+        "text": "你与课文、史意相合。"
+      }
+    ]
+  },
+  "reveal": {
+    "realText": "元丰六年十月十二日夜……但少闲人如吾两人者耳。",
+    "source": "苏轼《记承天寺夜游》",
+    "analysis": "短文写景极简，妙在「闲人」二字：贬谪中的自解与相知。",
+    "takeaway": "月与竹柏常在，能赏者稀；闲非懒，是境。"
+  },
+  "shareCard": {
+    "headline": "承天寺夜游 · 闲人 · 你走过了这一程",
+    "footer": "月与竹柏常在，能赏者稀；闲非懒，是境。"
+  },
+  "tags": [
+    "课标",
+    "宋"
+  ],
+  "facets": {
+    "dynasty": [
+      "宋"
+    ],
+    "storyKind": [
+      "游记",
+      "贬谪"
+    ],
+    "theme": [
+      "旷达",
+      "友情"
+    ]
+  }
+}

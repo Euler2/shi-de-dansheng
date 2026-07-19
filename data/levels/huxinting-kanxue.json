@@ -1,0 +1,94 @@
+{
+  "id": "huxinting-kanxue",
+  "type": "history",
+  "title": "湖心亭看雪 · 雪夜",
+  "subtitle": "莫说相公痴，更有痴似君",
+  "era": "明",
+  "author": "张岱",
+  "protagonist": "湖心亭看雪的张岱（你）",
+  "difficulty": 1,
+  "intro": "崇祯五年十二月，你独往湖心亭看雪。",
+  "guide": "你将替文中人物做几个选择。选对更接近课文与史实。",
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "branch",
+      "narration": "雾凇沆砀，天与云与山与水，上下一白。",
+      "prompt": "你——",
+      "options": [
+        {
+          "id": "a",
+          "label": "独棹小舟，拥毳衣炉火",
+          "isTarget": true,
+          "outcome": "你独往——「独往湖心亭看雪」，痴在专一。"
+        },
+        {
+          "id": "b",
+          "label": "邀众同游，热闹为上",
+          "outcome": "你邀众——少了「独」与「痴」。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "kind": "branch",
+      "narration": "见金陵客，强饮三大白而别。舟子喃喃：「莫说相公痴，更有痴似相公者。」",
+      "prompt": "你——",
+      "options": [
+        {
+          "id": "a",
+          "label": "以「痴」自许，不辩",
+          "isTarget": true,
+          "outcome": "你默受「痴」——知己在雪夜，不在人多。"
+        },
+        {
+          "id": "b",
+          "label": "急辩「非痴，乃雅兴」",
+          "outcome": "你急辩——张岱的孤高，便俗了一分。"
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "mode": "fidelity",
+    "bands": [
+      {
+        "min": 0,
+        "max": 1,
+        "text": "你的选择与课文略有出入，但故事仍说得通。"
+      },
+      {
+        "min": 2,
+        "max": 2,
+        "text": "你与课文、史意相合。"
+      }
+    ]
+  },
+  "reveal": {
+    "realText": "崇祯五年十二月，余住西湖……莫说相公痴，更有痴似相公者。",
+    "source": "张岱《湖心亭看雪》",
+    "analysis": "小品写雪写痴，「上下一白」极静，遇客极偶。",
+    "takeaway": "痴在专情，不在众随；雪夜之白，照见孤怀。"
+  },
+  "shareCard": {
+    "headline": "湖心亭看雪 · 雪夜 · 你走过了这一程",
+    "footer": "痴在专情，不在众随；雪夜之白，照见孤怀。"
+  },
+  "tags": [
+    "课标",
+    "明"
+  ],
+  "facets": {
+    "dynasty": [
+      "明"
+    ],
+    "storyKind": [
+      "小品",
+      "隐逸"
+    ],
+    "theme": [
+      "孤高",
+      "写景"
+    ]
+  }
+}

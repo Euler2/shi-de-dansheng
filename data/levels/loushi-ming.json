@@ -1,0 +1,94 @@
+{
+  "id": "loushi-ming",
+  "type": "history",
+  "title": "德馨之室 · 陋室铭",
+  "subtitle": "斯是陋室，惟吾德馨",
+  "era": "唐",
+  "author": "刘禹锡",
+  "protagonist": "谪居写铭的你",
+  "difficulty": 1,
+  "intro": "你的居室简陋，有人讥之。你要作铭自明。",
+  "guide": "你将替文中人物做几个选择。选对更接近课文与史实。",
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "branch",
+      "narration": "苔痕上阶绿，草色入帘青。",
+      "prompt": "你——",
+      "options": [
+        {
+          "id": "a",
+          "label": "以「惟吾德馨」定调",
+          "isTarget": true,
+          "outcome": "你定调在德不在华——「何陋之有」由此出。"
+        },
+        {
+          "id": "b",
+          "label": "辩称不久将迁居",
+          "outcome": "你推托外迁——少了托物言志的力道。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "kind": "branch",
+      "narration": "可以调素琴，阅金经。无丝竹之乱耳，无案牍之劳形。",
+      "prompt": "结句你——",
+      "options": [
+        {
+          "id": "a",
+          "label": "引「南阳诸葛庐，西蜀子云亭」",
+          "isTarget": true,
+          "outcome": "你引先贤陋室自况，「何陋之有」水到渠成。"
+        },
+        {
+          "id": "b",
+          "label": "只骂俗吏，不引先贤",
+          "outcome": "你直斥俗务——志气有，而典故之托稍弱。"
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "mode": "fidelity",
+    "bands": [
+      {
+        "min": 0,
+        "max": 1,
+        "text": "你的选择与课文略有出入，但故事仍说得通。"
+      },
+      {
+        "min": 2,
+        "max": 2,
+        "text": "你与课文、史意相合。"
+      }
+    ]
+  },
+  "reveal": {
+    "realText": "斯是陋室，惟吾德馨……孔子云：何陋之有？",
+    "source": "刘禹锡《陋室铭》",
+    "analysis": "铭体短小，以「德馨」翻转「陋」，用典收束。",
+    "takeaway": "陋在形，不在德；德馨则室不陋。"
+  },
+  "shareCard": {
+    "headline": "德馨之室 · 陋室铭 · 你走过了这一程",
+    "footer": "陋在形，不在德；德馨则室不陋。"
+  },
+  "tags": [
+    "课标",
+    "唐"
+  ],
+  "facets": {
+    "dynasty": [
+      "唐"
+    ],
+    "storyKind": [
+      "铭",
+      "抒怀"
+    ],
+    "theme": [
+      "安贫",
+      "德操"
+    ]
+  }
+}

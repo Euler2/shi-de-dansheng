@@ -1,0 +1,94 @@
+{
+  "id": "lanting-xu",
+  "type": "history",
+  "title": "兰亭集序 · 修禊",
+  "subtitle": "后之视今，亦犹今之视昔",
+  "era": "东晋",
+  "author": "王羲之",
+  "protagonist": "修禊作序的你",
+  "difficulty": 1,
+  "intro": "永和九年，会于会稽山阴之兰亭，修禊事也。",
+  "guide": "你将替文中人物做几个选择。选对更接近课文与史实。",
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "branch",
+      "narration": "「群贤毕至，少长咸集。此地有崇山峻岭，茂林修竹。」",
+      "prompt": "你——",
+      "options": [
+        {
+          "id": "a",
+          "label": "先写胜集，再转人生之悲",
+          "isTarget": true,
+          "outcome": "你由乐转悲——「向之所欣，俯仰之间，已为陈迹」。"
+        },
+        {
+          "id": "b",
+          "label": "只写饮酒，不论人生",
+          "outcome": "你止于饮——「序」之哲思便无。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "kind": "branch",
+      "narration": "「后之视今，亦犹今之视昔，悲夫！」",
+      "prompt": "结句你——",
+      "options": [
+        {
+          "id": "a",
+          "label": "以「悲夫」收束，录人录事",
+          "isTarget": true,
+          "outcome": "你以悲收——「故列叙时人，录其所述」。"
+        },
+        {
+          "id": "b",
+          "label": "称不必录，尽兴即可",
+          "outcome": "你拒录——《兰亭》之传便无。"
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "mode": "fidelity",
+    "bands": [
+      {
+        "min": 0,
+        "max": 1,
+        "text": "你的选择与课文略有出入，但故事仍说得通。"
+      },
+      {
+        "min": 2,
+        "max": 2,
+        "text": "你与课文、史意相合。"
+      }
+    ]
+  },
+  "reveal": {
+    "realText": "永和九年，岁在癸丑……后之视今，亦犹今之视昔，悲夫！",
+    "source": "王羲之《兰亭集序》",
+    "analysis": "由乐转悲，由悲转录，书法与文思合一。",
+    "takeaway": "乐极生悲，古今同悲；录述以传，不负此集。"
+  },
+  "shareCard": {
+    "headline": "兰亭集序 · 修禊 · 你走过了这一程",
+    "footer": "乐极生悲，古今同悲；录述以传，不负此集。"
+  },
+  "tags": [
+    "课标",
+    "东晋"
+  ],
+  "facets": {
+    "dynasty": [
+      "东晋"
+    ],
+    "storyKind": [
+      "序",
+      "哲思"
+    ],
+    "theme": [
+      "生死",
+      "传世"
+    ]
+  }
+}

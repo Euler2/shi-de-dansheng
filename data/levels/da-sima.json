@@ -1,0 +1,94 @@
+{
+  "id": "da-sima",
+  "type": "history",
+  "title": "答司马谏议书",
+  "subtitle": "理直气和，辩驳新法之争",
+  "era": "宋",
+  "author": "王安石",
+  "protagonist": "答书的王安石（你）",
+  "difficulty": 1,
+  "intro": "司马光书责你变法。你要回信辩明。",
+  "guide": "你将替文中人物做几个选择。选对更接近课文与史实。",
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "branch",
+      "narration": "「某知罪矣；然使吾属为从公于私也。」",
+      "prompt": "你——",
+      "options": [
+        {
+          "id": "a",
+          "label": "先承「知罪」，再辩「非私」",
+          "isTarget": true,
+          "outcome": "你理直气和——「非特朝廷士大夫而已」。"
+        },
+        {
+          "id": "b",
+          "label": "破口大骂，不承半字",
+          "outcome": "你直骂——气盛而理疏，非王安石法。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "kind": "branch",
+      "narration": "「度义而为之，是而不见可悔故也。」",
+      "prompt": "结句你——",
+      "options": [
+        {
+          "id": "a",
+          "label": "以「度义」自任，不悔所为",
+          "isTarget": true,
+          "outcome": "你以义自任——变法之志，在公不在私。"
+        },
+        {
+          "id": "b",
+          "label": "表示愿罢新法求和",
+          "outcome": "你退让——与「不悔故也」不合。"
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "mode": "fidelity",
+    "bands": [
+      {
+        "min": 0,
+        "max": 1,
+        "text": "你的选择与课文略有出入，但故事仍说得通。"
+      },
+      {
+        "min": 2,
+        "max": 2,
+        "text": "你与课文、史意相合。"
+      }
+    ]
+  },
+  "reveal": {
+    "realText": "某启：昨日蒙教……是而不见可悔故也。",
+    "source": "王安石《答司马谏议书》",
+    "analysis": "短书驳论，先礼后辩，以「度义」收束。",
+    "takeaway": "辩在公义，不在意气；度义而行，则不悔。"
+  },
+  "shareCard": {
+    "headline": "答司马谏议书 · 你走过了这一程",
+    "footer": "辩在公义，不在意气；度义而行，则不悔。"
+  },
+  "tags": [
+    "课标",
+    "宋"
+  ],
+  "facets": {
+    "dynasty": [
+      "宋"
+    ],
+    "storyKind": [
+      "书札",
+      "论辩"
+    ],
+    "theme": [
+      "变法",
+      "公义"
+    ]
+  }
+}

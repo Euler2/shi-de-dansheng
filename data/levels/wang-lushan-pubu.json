@@ -1,0 +1,213 @@
+{
+  "id": "wang-lushan-pubu",
+  "type": "poem",
+  "title": "望庐山瀑布",
+  "subtitle": "一道瀑布，怎么写到天上去",
+  "era": "唐",
+  "author": "李白",
+  "protagonist": "立于庐山脚下、仰望飞瀑的人",
+  "difficulty": 1,
+  "intro": "你来到庐山脚下，抬头望去，香炉峰高耸入云，一道瀑布自半空垂落——",
+  "guide": "你将一步步写下这眼前的壮景。没有标准答案，选你心里那个就好。",
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "compose",
+      "narration": "日光照在香炉峰上，峰顶——",
+      "prompt": "选你看见的景象",
+      "options": [
+        {
+          "id": "a",
+          "label": "升起一片紫色的烟霞",
+          "note": "瑰丽、缥缈",
+          "fragment": "日照香炉生紫烟",
+          "tone": "bright",
+          "isTarget": true,
+          "whyHere": "这一句在声韵、意象或章法上更贴合作者当时的心绪与流传本。"
+        },
+        {
+          "id": "b",
+          "label": "云雾缭绕了半山",
+          "note": "朦胧、清润",
+          "fragment": "云绕香炉半山遮",
+          "tone": "neutral",
+          "altNote": "这样写也成一首完整的诗，只是意境与名作略别。"
+        },
+        {
+          "id": "c",
+          "label": "金光洒满了林梢",
+          "note": "明亮、温暖",
+          "fragment": "日满香炉照林梢",
+          "tone": "warm",
+          "altNote": "这样写也成一首完整的诗，只是意境与名作略别。"
+        }
+      ],
+      "lineCompare": {
+        "realLine": "日照香炉生紫烟",
+        "whyOriginal": "这一句在声韵、意象或章法上更贴合作者当时的心绪与流传本。"
+      }
+    },
+    {
+      "id": "s2",
+      "kind": "compose",
+      "narration": "远远望去，那道瀑布——",
+      "prompt": "选一个形容",
+      "options": [
+        {
+          "id": "a",
+          "label": "像挂在山前的一条大河",
+          "note": "化动为静、奇崛",
+          "fragment": "遥看瀑布挂前川",
+          "tone": "bright",
+          "isTarget": true,
+          "whyHere": "这一句在声韵、意象或章法上更贴合作者当时的心绪与流传本。"
+        },
+        {
+          "id": "b",
+          "label": "像一条银带垂在空中",
+          "note": "轻盈、素净",
+          "fragment": "遥看瀑布垂如带",
+          "tone": "neutral",
+          "altNote": "这样写也成一首完整的诗，只是意境与名作略别。"
+        },
+        {
+          "id": "c",
+          "label": "像一匹白练当风抖动",
+          "note": "飘逸、灵动",
+          "fragment": "遥看瀑布舞如练",
+          "tone": "neutral",
+          "altNote": "这样写也成一首完整的诗，只是意境与名作略别。"
+        }
+      ],
+      "lineCompare": {
+        "realLine": "遥看瀑布挂前川",
+        "whyOriginal": "这一句在声韵、意象或章法上更贴合作者当时的心绪与流传本。"
+      }
+    },
+    {
+      "id": "s3",
+      "kind": "compose",
+      "narration": "再看那水势——",
+      "prompt": "选水落的气势",
+      "options": [
+        {
+          "id": "a",
+          "label": "飞流直下足有三千尺",
+          "note": "极度夸张、雄奇",
+          "fragment": "飞流直下三千尺",
+          "tone": "bright",
+          "isTarget": true,
+          "whyHere": "这一句在声韵、意象或章法上更贴合作者当时的心绪与流传本。"
+        },
+        {
+          "id": "b",
+          "label": "奔涌着不知有多深",
+          "note": "深沉、莫测",
+          "fragment": "奔流不知几许深",
+          "tone": "neutral",
+          "altNote": "这样写也成一首完整的诗，只是意境与名作略别。"
+        },
+        {
+          "id": "c",
+          "label": "訇然作响，震动山谷",
+          "note": "声势、磅礴",
+          "fragment": "訇然飞落震山谷",
+          "tone": "neutral",
+          "altNote": "这样写也成一首完整的诗，只是意境与名作略别。"
+        }
+      ],
+      "lineCompare": {
+        "realLine": "飞流直下三千尺",
+        "whyOriginal": "这一句在声韵、意象或章法上更贴合作者当时的心绪与流传本。"
+      }
+    },
+    {
+      "id": "s4",
+      "kind": "compose",
+      "narration": "你忍不住惊叹，那简直是——",
+      "prompt": "选你脱口而出的想象",
+      "options": [
+        {
+          "id": "a",
+          "label": "银河从九天之上落了下来",
+          "note": "天马行空、仙气",
+          "fragment": "疑是银河落九天",
+          "tone": "bright",
+          "isTarget": true,
+          "whyHere": "这一句在声韵、意象或章法上更贴合作者当时的心绪与流传本。"
+        },
+        {
+          "id": "b",
+          "label": "天河决开了一道口",
+          "note": "奇想、磅礴",
+          "fragment": "疑是天河决一口",
+          "tone": "neutral",
+          "altNote": "这样写也成一首完整的诗，只是意境与名作略别。"
+        },
+        {
+          "id": "c",
+          "label": "玉龙在苍穹间翻舞",
+          "note": "灵动、瑰丽",
+          "fragment": "疑是玉龙舞苍穹",
+          "tone": "neutral",
+          "altNote": "这样写也成一首完整的诗，只是意境与名作略别。"
+        }
+      ],
+      "lineCompare": {
+        "realLine": "疑是银河落九天",
+        "whyOriginal": "这一句在声韵、意象或章法上更贴合作者当时的心绪与流传本。"
+      }
+    }
+  ],
+  "scoring": {
+    "mode": "resonance",
+    "bands": [
+      {
+        "min": 0,
+        "max": 1,
+        "text": "你写的是另一道瀑布，也颇有气象，只是少了几分李白那种把山水接到天上的狂想。"
+      },
+      {
+        "min": 2,
+        "max": 3,
+        "text": "那股飞动的气势已经有了，再放开些想象——"
+      },
+      {
+        "min": 4,
+        "max": 4,
+        "text": "你与一千三百年前的李白，望着同一道飞瀑，都看见了天上的银河。"
+      }
+    ]
+  },
+  "reveal": {
+    "realText": "日照香炉生紫烟，遥看瀑布挂前川。飞流直下三千尺，疑是银河落九天。",
+    "source": "李白《望庐山瀑布》",
+    "analysis": "李白写景，从不肯老实。一个「挂」字，把飞动的瀑布定成了一幅悬在山前的静画；再用「三千尺」「银河落九天」的极度夸张，把它重新写活、一路写到天上去。把眼前的山水，接到星河上去的想象力，正是「诗仙」二字的底气。",
+    "takeaway": "同一道瀑布，有人只看见水，李白看见了银河。"
+  },
+  "shareCard": {
+    "headline": "我的望庐山瀑布 · 与李白的版本",
+    "footer": "同一道瀑布，有人只看见水，李白看见了银河。"
+  },
+  "tags": [
+    "唐诗",
+    "山水",
+    "想象力",
+    "夸张"
+  ],
+  "facets": {
+    "dynasty": [
+      "唐"
+    ],
+    "author": [
+      "李白"
+    ],
+    "form": [
+      "七言绝句"
+    ],
+    "theme": [
+      "山水",
+      "想象"
+    ]
+  }
+}

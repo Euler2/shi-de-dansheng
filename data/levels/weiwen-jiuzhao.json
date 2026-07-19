@@ -1,0 +1,94 @@
+{
+  "id": "weiwen-jiuzhao",
+  "type": "history",
+  "title": "围魏救赵 · 孙膑",
+  "subtitle": "攻其必救——你怎么解邯郸",
+  "era": "战国",
+  "author": "《史记》",
+  "protagonist": "军师孙膑",
+  "difficulty": 1,
+  "intro": "魏围赵邯郸，赵求救于齐。田忌、孙膑将兵。",
+  "guide": "你将替文中人物做几个选择。选对更接近课文与史实。",
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "branch",
+      "narration": "孙膑曰：「夫解纷者，不控卷，救斗者，不搏戟。」",
+      "prompt": "你——",
+      "options": [
+        {
+          "id": "a",
+          "label": "不直救邯郸，而攻魏大梁",
+          "isTarget": true,
+          "outcome": "你围魏救赵——魏军回救，赵围自解。"
+        },
+        {
+          "id": "b",
+          "label": "直赴邯郸，与魏军决战",
+          "outcome": "你直救——「救斗者搏戟」，或两败。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "kind": "branch",
+      "narration": "「批亢捣虚，形格势禁，则自为解耳。」",
+      "prompt": "换作你——",
+      "options": [
+        {
+          "id": "a",
+          "label": "击虚击要，迫敌自回",
+          "isTarget": true,
+          "outcome": "你击虚——桂陵、马陵之胜由此法。"
+        },
+        {
+          "id": "b",
+          "label": "硬碰硬，不图虚实",
+          "outcome": "你硬碰——「形格势禁」便用不上。"
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "mode": "fidelity",
+    "bands": [
+      {
+        "min": 0,
+        "max": 1,
+        "text": "你的选择与课文略有出入，但故事仍说得通。"
+      },
+      {
+        "min": 2,
+        "max": 2,
+        "text": "你与课文、史意相合。"
+      }
+    ]
+  },
+  "reveal": {
+    "realText": "魏围赵邯郸……孙膑曰：夫解纷者，不控卷……",
+    "source": "《史记·孙子吴起列传》",
+    "analysis": "经典兵法：不救点而击虚，迫敌自解。",
+    "takeaway": "解纷不控卷；击虚则势禁，围魏所以救赵。"
+  },
+  "shareCard": {
+    "headline": "围魏救赵 · 孙膑 · 你走过了这一程",
+    "footer": "解纷不控卷；击虚则势禁，围魏所以救赵。"
+  },
+  "tags": [
+    "课标",
+    "战国"
+  ],
+  "facets": {
+    "dynasty": [
+      "战国"
+    ],
+    "storyKind": [
+      "史传",
+      "兵法"
+    ],
+    "theme": [
+      "谋略",
+      "解困"
+    ]
+  }
+}

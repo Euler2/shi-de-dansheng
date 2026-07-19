@@ -1,0 +1,32 @@
+{
+  "name": "shi-de-dansheng-v4",
+  "version": "0.4.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "enrich": "node scripts/enrich-levels.mjs",
+    "scaffold": "node scripts/scaffold-poems.mjs",
+    "app:build": "cross-env CAPACITOR=1 next build",
+    "app:sync": "cross-env CAPACITOR=1 next build && npx cap sync android",
+    "app:android": "cross-env CAPACITOR=1 next build && npx cap sync android && npx cap open android",
+    "app:apk": "cross-env CAPACITOR=1 next build && npx cap sync android && cd android && gradlew.bat assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.4.1",
+    "@capacitor/cli": "^8.4.1",
+    "@capacitor/core": "^8.4.1",
+    "html-to-image": "1.11.11",
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.10",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "typescript": "5.5.3",
+    "cross-env": "^7.0.3"
+  }
+}

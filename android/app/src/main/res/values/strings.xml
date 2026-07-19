@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">诗的诞生</string>
+    <string name="title_activity_main">诗的诞生</string>
+    <string name="package_name">com.zhihu.shidedansheng.v4</string>
+    <string name="custom_url_scheme">com.zhihu.shidedansheng.v4</string>
+</resources>

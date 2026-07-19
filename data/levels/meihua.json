@@ -1,0 +1,110 @@
+{
+  "id": "meihua",
+  "type": "poem",
+  "title": "梅花",
+  "subtitle": "五言绝句 · 课标背诵",
+  "era": "宋",
+  "author": "王安石",
+  "protagonist": "拟写《梅花》的诗人",
+  "difficulty": 1,
+  "intro": "课标篇目《梅花》（王安石）。你从眼前景或心中情起笔——",
+  "guide": "你将一步步写下这一篇。选对更接近流传名篇。",
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "compose",
+      "narration": "你先定下起句——",
+      "prompt": "选起句方向",
+      "options": [
+        {
+          "id": "a",
+          "label": "墙角数枝梅，凌寒",
+          "fragment": "墙角数枝梅，凌寒独自开。",
+          "isTarget": true,
+          "whyHere": "与课标通行本、声情相合。"
+        },
+        {
+          "id": "b",
+          "label": "另起意境",
+          "fragment": "墙角……开。",
+          "altNote": "意境可通，但与通行本不同。"
+        }
+      ],
+      "lineCompare": {
+        "realLine": "墙角数枝梅，凌寒独自开。",
+        "whyOriginal": "起句定调，名篇多由此出。"
+      }
+    },
+    {
+      "id": "s2",
+      "kind": "compose",
+      "narration": "再写下一句——",
+      "prompt": "接下一句",
+      "options": [
+        {
+          "id": "a",
+          "label": "遥知不是雪，为有",
+          "fragment": "遥知不是雪，为有暗香来。",
+          "isTarget": true,
+          "whyHere": "与上句相承，合于名篇。"
+        },
+        {
+          "id": "b",
+          "label": "换另一种收束",
+          "fragment": "遥知……",
+          "altNote": "可成句，但与名篇不同。"
+        }
+      ],
+      "lineCompare": {
+        "realLine": "遥知不是雪，为有暗香来。",
+        "whyOriginal": "承转之间，见作者匠心。"
+      }
+    }
+  ],
+  "scoring": {
+    "mode": "resonance",
+    "bands": [
+      {
+        "min": 0,
+        "max": 1,
+        "text": "你的版本有情致，与名篇略异。"
+      },
+      {
+        "min": 2,
+        "max": 2,
+        "text": "你写成了通行名篇的关键句。"
+      }
+    ]
+  },
+  "reveal": {
+    "realText": "墙角数枝梅，凌寒独自开。，遥知不是雪，为有暗香来。。",
+    "source": "王安石《梅花》",
+    "analysis": "《梅花》为课标篇目，五言绝句，主题：咏物、坚贞。",
+    "takeaway": "以梅喻坚贞；暗香不在色，在气节。"
+  },
+  "shareCard": {
+    "headline": "梅花 · 你拼出的版本",
+    "footer": "以梅喻坚贞；暗香不在色，在气节。"
+  },
+  "tags": [
+    "宋",
+    "五言绝句",
+    "咏物",
+    "坚贞"
+  ],
+  "facets": {
+    "dynasty": [
+      "宋"
+    ],
+    "author": [
+      "王安石"
+    ],
+    "form": [
+      "五言绝句"
+    ],
+    "theme": [
+      "咏物",
+      "坚贞"
+    ]
+  }
+}

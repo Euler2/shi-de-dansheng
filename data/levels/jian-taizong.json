@@ -1,0 +1,94 @@
+{
+  "id": "jian-taizong",
+  "type": "history",
+  "title": "十思疏 · 谏太宗",
+  "subtitle": "居安思危，戒奢从简",
+  "era": "唐",
+  "author": "魏徵",
+  "protagonist": "上疏的魏徵（你）",
+  "difficulty": 1,
+  "intro": "太宗治世承平，你要上疏，以「十思」谏之。",
+  "guide": "你将替文中人物做几个选择。选对更接近课文与史实。",
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "branch",
+      "narration": "「求木之长者，必固其根本。」",
+      "prompt": "你谏——",
+      "options": [
+        {
+          "id": "a",
+          "label": "以固本喻治道在德",
+          "isTarget": true,
+          "outcome": "你以树喻国——根本在德，与疏意合。"
+        },
+        {
+          "id": "b",
+          "label": "只列罪状，不喻不劝",
+          "outcome": "你直骂——魏徵以喻进谏，气有而法欠。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "kind": "branch",
+      "narration": "「见可欲则思知足以自戒……将有作则思知止以安人。」",
+      "prompt": "十思之中，你强调——",
+      "options": [
+        {
+          "id": "a",
+          "label": "知足、知止、谦冲、慎罚",
+          "isTarget": true,
+          "outcome": "你重「十思」——居安思危，戒奢从简。"
+        },
+        {
+          "id": "b",
+          "label": "只劝太宗多征伐",
+          "outcome": "你劝征伐——与「知止以安人」相反。"
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "mode": "fidelity",
+    "bands": [
+      {
+        "min": 0,
+        "max": 1,
+        "text": "你的选择与课文略有出入，但故事仍说得通。"
+      },
+      {
+        "min": 2,
+        "max": 2,
+        "text": "你与课文、史意相合。"
+      }
+    ]
+  },
+  "reveal": {
+    "realText": "臣闻求木之长者，必固其根本……人君当神器之重，居域中之大。",
+    "source": "魏徵《谏太宗十思疏》",
+    "analysis": "名疏以喻起，以「十思」展开，逻辑严密，贞观名篇。",
+    "takeaway": "治大国若烹小鲜；居安当思危，戒奢以从简。"
+  },
+  "shareCard": {
+    "headline": "十思疏 · 谏太宗 · 你走过了这一程",
+    "footer": "治大国若烹小鲜；居安当思危，戒奢以从简。"
+  },
+  "tags": [
+    "课标",
+    "唐"
+  ],
+  "facets": {
+    "dynasty": [
+      "唐"
+    ],
+    "storyKind": [
+      "奏疏",
+      "讽谏"
+    ],
+    "theme": [
+      "治国",
+      "纳谏"
+    ]
+  }
+}

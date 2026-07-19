@@ -1,0 +1,94 @@
+{
+  "id": "shishuo",
+  "type": "history",
+  "title": "传道解惑 · 师说",
+  "subtitle": "师者，传道受业解惑也",
+  "era": "唐",
+  "author": "韩愈",
+  "protagonist": "论师的你",
+  "difficulty": 1,
+  "intro": "时人不师，耻相师。你要作《师说》正之。",
+  "guide": "你将替文中人物做几个选择。选对更接近课文与史实。",
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "branch",
+      "narration": "「师者，传道受业解惑也。」",
+      "prompt": "你定义师——",
+      "options": [
+        {
+          "id": "a",
+          "label": "道、业、惑三者并重",
+          "isTarget": true,
+          "outcome": "你定师在传道——非仅传技。"
+        },
+        {
+          "id": "b",
+          "label": "师只传业，不必传道",
+          "outcome": "你缩师义——韩愈所正者，正在此。"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "kind": "branch",
+      "narration": "「弟子不必不如师，师不必贤于弟子。」",
+      "prompt": "你——",
+      "options": [
+        {
+          "id": "a",
+          "label": "以闻道先后论，不拘长幼",
+          "isTarget": true,
+          "outcome": "你破长幼之拘——「道之所存，师之所存」。"
+        },
+        {
+          "id": "b",
+          "label": "坚持弟子必低于师",
+          "outcome": "你守等级——与「不耻相师」相悖。"
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "mode": "fidelity",
+    "bands": [
+      {
+        "min": 0,
+        "max": 1,
+        "text": "你的选择与课文略有出入，但故事仍说得通。"
+      },
+      {
+        "min": 2,
+        "max": 2,
+        "text": "你与课文、史意相合。"
+      }
+    ]
+  },
+  "reveal": {
+    "realText": "古之学者必有师……圣人无常师。",
+    "source": "韩愈《师说》",
+    "analysis": "破「耻相师」之弊，立「道之所存，师之所存」。",
+    "takeaway": "师在传道；闻道有先后，学无贵贱。"
+  },
+  "shareCard": {
+    "headline": "传道解惑 · 师说 · 你走过了这一程",
+    "footer": "师在传道；闻道有先后，学无贵贱。"
+  },
+  "tags": [
+    "课标",
+    "唐"
+  ],
+  "facets": {
+    "dynasty": [
+      "唐"
+    ],
+    "storyKind": [
+      "论说",
+      "为学"
+    ],
+    "theme": [
+      "从师",
+      "反弊"
+    ]
+  }
+}

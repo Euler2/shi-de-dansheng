@@ -1,0 +1,110 @@
+{
+  "id": "dalin",
+  "type": "poem",
+  "title": "大林寺桃花",
+  "subtitle": "七言绝句 · 课标背诵",
+  "era": "唐",
+  "author": "白居易",
+  "protagonist": "拟写《大林寺桃花》的诗人",
+  "difficulty": 1,
+  "intro": "课标篇目《大林寺桃花》（白居易）。你从眼前景或心中情起笔——",
+  "guide": "你将一步步写下这一篇。选对更接近流传名篇。",
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "compose",
+      "narration": "你先定下起句——",
+      "prompt": "选起句方向",
+      "options": [
+        {
+          "id": "a",
+          "label": "人间四月芳菲尽，",
+          "fragment": "人间四月芳菲尽，山寺桃花始盛开。",
+          "isTarget": true,
+          "whyHere": "与课标通行本、声情相合。"
+        },
+        {
+          "id": "b",
+          "label": "另起意境",
+          "fragment": "人间……开。",
+          "altNote": "意境可通，但与通行本不同。"
+        }
+      ],
+      "lineCompare": {
+        "realLine": "人间四月芳菲尽，山寺桃花始盛开。",
+        "whyOriginal": "起句定调，名篇多由此出。"
+      }
+    },
+    {
+      "id": "s2",
+      "kind": "compose",
+      "narration": "再写下一句——",
+      "prompt": "接下一句",
+      "options": [
+        {
+          "id": "a",
+          "label": "长恨春归无觅处，",
+          "fragment": "长恨春归无觅处，不知转入此中来。",
+          "isTarget": true,
+          "whyHere": "与上句相承，合于名篇。"
+        },
+        {
+          "id": "b",
+          "label": "换另一种收束",
+          "fragment": "长恨……",
+          "altNote": "可成句，但与名篇不同。"
+        }
+      ],
+      "lineCompare": {
+        "realLine": "长恨春归无觅处，不知转入此中来。",
+        "whyOriginal": "承转之间，见作者匠心。"
+      }
+    }
+  ],
+  "scoring": {
+    "mode": "resonance",
+    "bands": [
+      {
+        "min": 0,
+        "max": 1,
+        "text": "你的版本有情致，与名篇略异。"
+      },
+      {
+        "min": 2,
+        "max": 2,
+        "text": "你写成了通行名篇的关键句。"
+      }
+    ]
+  },
+  "reveal": {
+    "realText": "人间四月芳菲尽，山寺桃花始盛开。，长恨春归无觅处，不知转入此中来。。",
+    "source": "白居易《大林寺桃花》",
+    "analysis": "《大林寺桃花》为课标篇目，七言绝句，主题：春迟、意外。",
+    "takeaway": "同春不同候；境异则景异，春可「转入」。"
+  },
+  "shareCard": {
+    "headline": "大林寺桃花 · 你拼出的版本",
+    "footer": "同春不同候；境异则景异，春可「转入」。"
+  },
+  "tags": [
+    "唐",
+    "七言绝句",
+    "春迟",
+    "意外"
+  ],
+  "facets": {
+    "dynasty": [
+      "唐"
+    ],
+    "author": [
+      "白居易"
+    ],
+    "form": [
+      "七言绝句"
+    ],
+    "theme": [
+      "春迟",
+      "意外"
+    ]
+  }
+}
