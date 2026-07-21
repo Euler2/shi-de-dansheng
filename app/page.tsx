@@ -98,7 +98,11 @@ function Hub({ onPick }: { onPick: (id: string) => void }) {
       {hub === "story" && <StoryCatalog onPlay={onPick} />}
       {hub === "quiz" && <QuizPilot levels={LEVELS} onOpenLevel={onPick} />}
 
-      <footer className="foot">知乎人文季 · 用 AI 重新看见人</footer>
+      <footer className="foot">
+        知乎人文季 · 用 AI 重新看见人
+        <br />
+        © 2026 本软件著作权归作者所有。未经许可不得复制、镜像或商业使用。
+      </footer>
     </main>
   );
 }
@@ -541,7 +545,11 @@ function Player({ level, onExit }: { level: Level; onExit: () => void }) {
         </section>
       )}
 
-      <footer className="foot">知乎人文季 · 用 AI 重新看见人</footer>
+      <footer className="foot">
+        知乎人文季 · 用 AI 重新看见人
+        <br />
+        © 2026 本软件著作权归作者所有。未经许可不得复制、镜像或商业使用。
+      </footer>
     </main>
   );
 }
